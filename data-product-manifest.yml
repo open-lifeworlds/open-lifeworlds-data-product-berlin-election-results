@@ -1,0 +1,23 @@
+---
+id: berlin-election-results
+metadata:
+  name: Berlin Election Results
+  owner: Open Lifeworlds
+  description:
+  url:
+  license:
+  updated:
+  schema:
+input_ports:
+transformation_steps:
+output_ports:
+observability:
+  quality:
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: consumer-aligned
+ubiquitous_language: []
+tags:
