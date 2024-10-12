@@ -9,7 +9,7 @@
   <h1 align="center">Open Lifeworlds Data Product - Berlin Election Results</h1>
 
   <p align="center">
-    Data product providing TODO</a>
+    Data product combining Berlin election results and geodata</a>
   </p>
 </p>
 
