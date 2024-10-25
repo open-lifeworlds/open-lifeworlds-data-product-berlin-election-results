@@ -41,22 +41,20 @@ def extract_data(
 
 
 def download_file(file_path, file_name, url, clean, quiet):
-    # Check if result needs to be generated
     if clean or not os.path.exists(file_path):
         try:
             data = requests.get(url)
             if str(data.status_code).startswith("2"):
                 with open(file_path, "wb") as file:
                     file.write(data.content)
-                if not quiet:
-                    print(f"✓ Download {file_name}")
-            elif not quiet:
-                print(f"✗️ Error: {str(data.status_code)}, url {url}")
+                not quiet and print(f"✓ Download {file_name}")
+            else:
+                not quiet and print(f"✗️ Error: {str(data.status_code)}, url {url}")
         except Exception as e:
             print(f"✗️ Exception: {str(e)}, url {url}")
 
-    elif not quiet:
-        print(f"✓ Already exists {file_name}")
+    else:
+        not quiet and print(f"✓ Already exists {file_name}")
 
 
 def unzip_file(file_path, file_name, quiet):
@@ -74,7 +72,6 @@ def unzip_file(file_path, file_name, quiet):
                     ) as target:
                         target.write(source.read())
 
-            if not quiet:
-                print(f"✓ Unzip {file_name}")
+            not quiet and print(f"✓ Unzip {file_name}")
     except Exception as e:
         print(f"✗️ Exception: {str(e)}, file {file_name}")

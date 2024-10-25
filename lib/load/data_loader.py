@@ -27,7 +27,6 @@ def load_data(source_path, results_path, clean=False, quiet=False):
             if clean or not os.path.exists(results_file_path):
                 shutil.copyfile(source_file_path, results_file_path)
 
-                if not quiet:
-                    print(f"✓ Load {file_name}")
+                not quiet and print(f"✓ Load {file_name}")
             else:
-                print(f"✓ Already exists {subdir}/{file_name}")
+                not quiet and print(f"✓ Already exists {subdir}/{file_name}")

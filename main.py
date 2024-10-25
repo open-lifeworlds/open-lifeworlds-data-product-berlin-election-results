@@ -65,6 +65,7 @@ def main(argv):
     #
 
     blend_data(
+        data_product_manifest=data_product_manifest,
         data_transformation=data_transformation,
         source_path=bronze_path,
         results_path=gold_path,
@@ -80,7 +81,7 @@ def main(argv):
         data_product_manifest=data_product_manifest,
         config_path=script_path,
         data_paths=[gold_path],
-        file_endings=(".geojson"),
+        file_endings=(".geojson", ".json"),
     )
 
     generate_data_product_canvas(

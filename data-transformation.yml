@@ -7,7 +7,7 @@ input_ports:
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
       - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
+        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
     attributes:
       - eligible_voters
       - voters
