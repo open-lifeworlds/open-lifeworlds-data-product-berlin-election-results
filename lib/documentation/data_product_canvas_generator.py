@@ -3,13 +3,12 @@ import os
 from lib.config.data_product_manifest_loader import DataProductManifest
 from lib.tracking_decorator import TrackingDecorator
 
-SCHEMA_AS_TABLE = True
-
 
 @TrackingDecorator.track_time
 def generate_data_product_canvas(
     data_product_manifest: DataProductManifest,
     docs_path,
+    schema_as_table: bool = True,
 ):
     data_product_canvas_path = os.path.join(docs_path, "data-product-canvas.md")
 
@@ -52,7 +51,7 @@ def generate_data_product_canvas(
                 content += "\n**Schema**"
                 content += "\n"
 
-                if SCHEMA_AS_TABLE:
+                if schema_as_table:
                     content += "\n| Name | Description |"
                     content += "\n| --- | --- |"
 
@@ -100,7 +99,7 @@ def generate_data_product_canvas(
                 content += "\n**Schema**"
                 content += "\n"
 
-                if SCHEMA_AS_TABLE:
+                if schema_as_table:
                     content += "\n| Name | Description |"
                     content += "\n| --- | --- |"
 
@@ -132,8 +131,21 @@ def generate_data_product_canvas(
             content += "\n### Quality metrics"
             content += "\n"
 
-            for quality in data_product_manifest.observability.quality:
-                content += f"\n * {quality}"
+            for quality_metric in data_product_manifest.observability.quality:
+                content += f"#### {quality_metric.name}"
+                content += f"\n {quality_metric.description}"
+                content += "\n"
+
+                if schema_as_table:
+                    content += "\n| File | Value |"
+                    content += "\n| --- | --- |"
+
+                    for file in quality_metric.files:
+                        content += f"\n| {file.name} | {round(file.value, 2)} |"
+                else:
+                    for file in quality_metric.files:
+                        content += f"\n* {file.name}: {round(file.value, 2)}"
+
             content += "\n"
 
         if data_product_manifest.observability.operational:
@@ -208,7 +220,7 @@ def generate_data_product_canvas(
         content += "\n**Context-specific domain terminology (relevant for Data Product), Data Product polysemes which are used to create the current Data Product**"
         content += "\n"
 
-        if SCHEMA_AS_TABLE:
+        if schema_as_table:
             content += "\n| Name | Description |"
             content += "\n| --- | --- |"
 

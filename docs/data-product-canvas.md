@@ -7,7 +7,7 @@
 * description: Data product combining Berlin election results and geodata
 * url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
 * license: CC-BY 4.0
-* updated: 2025-03-16
+* updated: 2025-04-05
 
 ## Input Ports
 
@@ -214,7 +214,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
 * license: CC-BY 4.0
-* updated: 2025-03-16
+* updated: 2025-04-05
 
 **Files**
 
@@ -226,11 +226,22 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
 * license: CC-BY 4.0
-* updated: 2025-03-16
+* updated: 2025-04-05
 
 **Files**
 
 * [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json)
+
+## Observability
+
+### Quality metrics
+#### geojson_property_completeness
+ Describes the percentage of geojson features that have all the properties
+
+| File | Value |
+| --- | --- |
+| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.geojson | 1.0 |
+| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.geojson | 0.37 |
 
 ## Classification
 

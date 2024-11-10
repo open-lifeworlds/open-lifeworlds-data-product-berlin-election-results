@@ -6,7 +6,7 @@ metadata:
   description: Data product combining Berlin election results and geodata
   url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
   license: CC-BY 4.0
-  updated: 2025-03-16
+  updated: 2025-04-05
   schema:
 input_ports:
   - id: berlin-lor-geodata-geojson
@@ -224,7 +224,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
       license: CC-BY 4.0
-      updated: 2025-03-16
+      updated: 2025-04-05
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.geojson
@@ -236,12 +236,19 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
       license: CC-BY 4.0
-      updated: 2025-03-16
+      updated: 2025-04-05
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json
 observability:
   quality:
+    - name: geojson_property_completeness
+      description: Describes the percentage of geojson features that have all the properties
+      files:
+        - name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.geojson
+          value: 1.0
+        - name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.geojson
+          value: 0.37211916807195056
   operational:
   slas:
   security:

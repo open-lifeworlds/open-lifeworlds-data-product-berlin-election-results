@@ -5,6 +5,7 @@ from typing import List, Optional
 
 import yaml
 from dacite import from_dict
+
 from lib.tracking_decorator import TrackingDecorator
 
 
@@ -40,8 +41,21 @@ class TransformationStep:
 
 
 @dataclass
+class File:
+    name: str
+    value: float
+
+
+@dataclass
+class QualityMetric:
+    name: str
+    description: str
+    files: Optional[List[File]] = field(default_factory=list)
+
+
+@dataclass
 class Observability:
-    quality: Optional[List[str]] = field(default_factory=list)
+    quality: Optional[List[QualityMetric]] = field(default_factory=list)
     operational: Optional[List[str]] = field(default_factory=list)
     slas: Optional[List[str]] = field(default_factory=list)
     security: Optional[List[str]] = field(default_factory=list)
