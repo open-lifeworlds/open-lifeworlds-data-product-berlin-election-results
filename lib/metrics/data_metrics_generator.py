@@ -28,7 +28,7 @@ def generate_geojson_property_completeness_metrics(
     for input_port in data_transformation.input_ports or []:
         for file in input_port.files or []:
             target_file_path = os.path.join(
-                results_path, input_port.id, file.target_file_name
+                results_path, f"{input_port.id}-geojson", file.target_file_name
             )
 
             # Load geojson

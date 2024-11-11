@@ -49,7 +49,7 @@ def blend_data(
                 source_path, input_port.id, file.source_file_name
             )
             target_file_path = os.path.join(
-                results_path, input_port.id, file.target_file_name
+                results_path, f"{input_port.id}-geojson", file.target_file_name
             )
             geojson_template_file_path = os.path.join(
                 source_path, file.geojson_template_file_name
