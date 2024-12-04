@@ -58,23 +58,18 @@ def generate_geojson_property_completeness_metrics(
                     f"{str(count).rjust(4)} / {str(count_all).rjust(4)} ({str(round((count / count_all * 100))).rjust(3)}%) {file.target_file_name}"
                 )
 
-    if data_product_manifest.observability.quality is None or not any(
-        metric
-        for metric in data_product_manifest.observability.quality
-        if metric.name == "geojson_property_completeness"
-    ):
-        # Create the observability section if it does not exist
-        if data_product_manifest.observability.quality is None:
-            data_product_manifest.observability.quality = []
+    # Create the observability section if it does not exist
+    if data_product_manifest.observability.quality is None:
+        data_product_manifest.observability.quality = []
 
-        # Append the quality metric to the data product manifest
-        data_product_manifest.observability.quality.append(
-            QualityMetric(
-                name="geojson_property_completeness",
-                description="The percentage of geojson features that have all necessary properties",
-                files=files,
-            )
+    # Append the quality metric to the data product manifest
+    data_product_manifest.observability.quality.append(
+        QualityMetric(
+            name="geojson_property_completeness",
+            description="The percentage of geojson features that have all necessary properties",
+            files=files,
         )
+    )
 
     with open(data_product_manifest_path, "w") as file:
         yaml.dump(

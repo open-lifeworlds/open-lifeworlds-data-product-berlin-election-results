@@ -182,39 +182,23 @@ input_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
       license: GPLv3
-      updated: 2025-03-15
+      updated: 2025-03-19
       schema:
-        - name: id
-          description: combined ID of the district + the electoral (5 digits)
-        - name: district_id
-          description: ID of the district (2 digits)
-        - name: electoral_district_id
-          description: ID of the electoral district (3 digits)
-        - name: eligible_voters
-          description: number of eligible voters
-        - name: voters
-          description: number of actual voters
-        - name: invalid_votes
-          description: number of invalid votes
-        - name: valid_votes
-          description: number of valid votes
-        - name: vote_yes
-          description: number of valid votes voting yes
-        - name: vote_no
-          description: number of valid votes voting no
-        - name: voter_turnout
-          description: percentage of eligible voters that have actually voted
-        - name: invalid_votes_percentage
-          description: percentage of invalid votes
-        - name: valid_votes_percentage
-          description: percentage of valid votes
-        - name: vote_yes_percentage
-          description: percentage of votes voting yes
-        - name: vote_no_percentage
-          description: percentage of votes voting no
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
+  - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+    metadata:
+      name: Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+      license: GPLv3
+      updated: 2025-03-19
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv
 transformation_steps:
   - name: Data blender
     path: lib/transform/data_blender.py
@@ -243,6 +227,29 @@ output_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json
+  - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
+    metadata:
+      name: Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
+      license: CC-BY 4.0
+      updated: 2025-04-14
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-electoral-districts.geojson
+  - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
+    metadata:
+      name: Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion Statistics
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
+      license: CC-BY 4.0
+      updated: 2025-04-14
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics.json
 observability:
   quality:
     - name: geojson_property_completeness
@@ -252,6 +259,17 @@ observability:
           value: 1.0
         - name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.geojson
           value: 0.37211916807195056
+    - name: geojson_property_completeness
+      description: The percentage of geojson features that have all necessary properties
+      files:
+        - name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson
+          value: 1.0
+        - name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-electoral-districts.geojson
+          value: 0.37211916807195056
+        - name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson
+          value: 1.0
+        - name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-electoral-districts.geojson
+          value: 0.41259134345137716
   operational:
   slas:
   security:
