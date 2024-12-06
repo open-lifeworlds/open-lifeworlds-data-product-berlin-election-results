@@ -62,6 +62,14 @@ def generate_geojson_property_completeness_metrics(
     if data_product_manifest.observability.quality is None:
         data_product_manifest.observability.quality = []
 
+    # Remove existing metric if it exists
+    data_product_manifest.observability.quality = list(
+        filter(
+            lambda metric: metric.name != "geojson_property_completeness",
+            data_product_manifest.observability.quality,
+        )
+    )
+
     # Append the quality metric to the data product manifest
     data_product_manifest.observability.quality.append(
         QualityMetric(
