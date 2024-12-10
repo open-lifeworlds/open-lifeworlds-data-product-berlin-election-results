@@ -80,3 +80,31 @@ input_ports:
       - valid_votes_percentage
       - vote_yes_percentage
       - vote_no_percentage
+  - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+    files:
+      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
+        target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
+      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
+        target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson
+        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
+    attributes:
+      - eligible_voters
+      - voters
+      - question_1_invalid_votes
+      - question_1_valid_votes
+      - question_1_vote_yes
+      - question_1_vote_no
+      - question_2_invalid_votes
+      - question_2_valid_votes
+      - question_2_vote_yes
+      - question_2_vote_no
+      - voter_turnout
+      - question_1_invalid_votes_percentage
+      - question_1_valid_votes_percentage
+      - question_1_vote_yes_percentage
+      - question_1_vote_no_percentage
+      - question_2_invalid_votes_percentage
+      - question_2_valid_votes_percentage
+      - question_2_vote_yes_percentage
+      - question_2_vote_no_percentage

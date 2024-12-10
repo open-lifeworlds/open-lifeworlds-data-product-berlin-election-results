@@ -6,7 +6,7 @@ metadata:
   description: Data product combining Berlin election results and geodata
   url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
   license: CC-BY 4.0
-  updated: 2025-04-15
+  updated: 2025-04-16
   schema:
 input_ports:
   - id: berlin-lor-geodata-geojson
@@ -223,6 +223,18 @@ input_ports:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv
+  - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+    metadata:
+      name: Berlin Election Results Referendum 2014 On The Preservation Of Tempelhofer Feld
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+      license: GPLv3
+      updated: 2025-03-19
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
 transformation_steps:
   - name: Data blender
     path: lib/transform/data_blender.py
@@ -235,7 +247,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson
@@ -247,7 +259,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json
@@ -258,7 +270,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson
@@ -270,7 +282,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics.json
@@ -281,7 +293,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-districts.geojson
@@ -293,7 +305,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics.json
@@ -304,7 +316,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-districts.geojson
@@ -316,10 +328,33 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
       license: CC-BY 4.0
-      updated: 2025-04-15
+      updated: 2025-04-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics.json
+  - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
+    metadata:
+      name: Berlin Election Results Referendum 2014 On The Preservation Of Tempelhofer Feld Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
+      license: CC-BY 4.0
+      updated: 2025-04-16
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson
+  - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
+    metadata:
+      name: Berlin Election Results Referendum 2014 On The Preservation Of Tempelhofer Feld Statistics
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
+      license: CC-BY 4.0
+      updated: 2025-04-16
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics.json
 observability:
   quality:
     - name: geojson_property_completeness
@@ -341,6 +376,10 @@ observability:
           value: 1.0
         - name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-electoral-districts.geojson
           value: 0.4991568296795953
+        - name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson
+          value: 1.0
+        - name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson
+          value: 0.9089376053962901
   operational:
   slas:
   security:
