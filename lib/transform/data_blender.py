@@ -131,7 +131,7 @@ def blend_data(
                         else:
                             already_exists += 1
                             not quiet and print(
-                                f"✓ Already exists {os.path.basename(statistics_file_path)}"
+                                f"✓ Already exists {os.path.basename(target_file_path)}"
                             )
                             continue
             except Exception as e:
