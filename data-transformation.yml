@@ -108,3 +108,23 @@ input_ports:
       - question_2_valid_votes_percentage
       - question_2_vote_yes_percentage
       - question_2_vote_no_percentage
+  - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
+    files:
+      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv
+        target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
+      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv
+        target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson
+        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
+    attributes:
+      - eligible_voters
+      - voters
+      - invalid_votes
+      - valid_votes
+      - vote_yes
+      - vote_no
+      - voter_turnout
+      - invalid_votes_percentage
+      - valid_votes_percentage
+      - vote_yes_percentage
+      - vote_no_percentage

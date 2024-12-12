@@ -236,6 +236,18 @@
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv)
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
+* license: GPLv3
+* updated: 2025-04-16
+
+**Files**
+
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv)
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv)
+
 ## Transformation Steps
 
 * [Data blender](../lib/transform/data_blender.py) blends csv data into geojson files
@@ -357,6 +369,29 @@
 
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics.json)
 
+### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport Geojson
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson
+* license: CC-BY 4.0
+* updated: 2025-04-16
+
+**Files**
+
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson)
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson)
+
+### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport Statistics
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
+* license: CC-BY 4.0
+* updated: 2025-04-16
+
+**Files**
+
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics.json)
+
 ## Observability
 
 ### Quality metrics
@@ -375,6 +410,8 @@
 | berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-electoral-districts.geojson | 0.5 |
 | berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson | 1.0 |
 | berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson | 0.91 |
+| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson | 1.0 |
+| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson | 1.0 |
 
 ## Classification
 
