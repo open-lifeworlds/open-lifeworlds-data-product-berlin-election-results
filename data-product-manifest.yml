@@ -6,7 +6,7 @@ metadata:
   description: Data product combining Berlin election results and geodata
   url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
   license: CC-BY 4.0
-  updated: 2025-04-16
+  updated: 2025-04-17
   schema:
 input_ports:
   - id: berlin-lor-geodata-geojson
@@ -247,6 +247,18 @@ input_ports:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv
+  - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
+    metadata:
+      name: Berlin Election Results Referendum 2021 Deutsche Wohnen Und Co Enteignen
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
+      license: GPLv3
+      updated: 2025-04-16
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv
 transformation_steps:
   - name: Data blender
     path: lib/transform/data_blender.py
@@ -259,7 +271,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson
@@ -271,7 +283,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json
@@ -282,7 +294,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson
@@ -294,7 +306,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics.json
@@ -305,7 +317,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-districts.geojson
@@ -317,7 +329,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics.json
@@ -328,7 +340,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-districts.geojson
@@ -340,7 +352,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics.json
@@ -351,7 +363,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson
@@ -363,7 +375,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics.json
@@ -374,7 +386,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson
@@ -386,10 +398,33 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
       license: CC-BY 4.0
-      updated: 2025-04-16
+      updated: 2025-04-17
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics.json
+  - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
+    metadata:
+      name: Berlin Election Results Referendum 2021 Deutsche Wohnen Und Co Enteignen Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
+      license: CC-BY 4.0
+      updated: 2025-04-17
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson
+  - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
+    metadata:
+      name: Berlin Election Results Referendum 2021 Deutsche Wohnen Und Co Enteignen Statistics
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
+      license: CC-BY 4.0
+      updated: 2025-04-17
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics.json
 observability:
   quality:
     - name: geojson_property_completeness
@@ -419,6 +454,10 @@ observability:
           value: 1.0
         - name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson
           value: 1.0
+        - name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson
+          value: 1.0
+        - name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson
+          value: 0.9893198426082068
   operational:
   slas:
   security:
