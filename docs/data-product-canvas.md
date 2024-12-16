@@ -260,6 +260,18 @@
 * [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv)
 * [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2023 Berlin 2030 Klimaneutral
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral
+* license: GPLv3
+* updated: 2025-04-16
+
+**Files**
+
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv)
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv)
+
 ## Transformation Steps
 
 * [Data blender](../lib/transform/data_blender.py) blends csv data into geojson files
@@ -427,6 +439,29 @@
 
 * [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics.json)
 
+### Berlin Election Results Referendum 2023 Berlin 2030 Klimaneutral Geojson
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson
+* license: CC-BY 4.0
+* updated: 2025-04-17
+
+**Files**
+
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson)
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson)
+
+### Berlin Election Results Referendum 2023 Berlin 2030 Klimaneutral Statistics
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics
+* license: CC-BY 4.0
+* updated: 2025-04-17
+
+**Files**
+
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics.json)
+
 ## Observability
 
 ### Quality metrics
@@ -449,6 +484,8 @@
 | berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson | 1.0 |
 | berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson | 1.0 |
 | berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson | 0.99 |
+| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson | 1.0 |
+| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson | 0.99 |
 
 ## Classification
 

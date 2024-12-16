@@ -148,3 +148,23 @@ input_ports:
       - valid_votes_percentage
       - vote_yes_percentage
       - vote_no_percentage
+  - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
+    files:
+      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv
+        target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
+      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv
+        target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson
+        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
+    attributes:
+      - eligible_voters
+      - voters
+      - invalid_votes
+      - valid_votes
+      - vote_yes
+      - vote_no
+      - voter_turnout
+      - invalid_votes_percentage
+      - valid_votes_percentage
+      - vote_yes_percentage
+      - vote_no_percentage
