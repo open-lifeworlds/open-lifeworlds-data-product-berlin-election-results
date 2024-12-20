@@ -2,6 +2,9 @@
 input_ports:
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     files:
+      - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.csv
+        target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -22,6 +25,9 @@ input_ports:
       - vote_no_percentage
   - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     files:
+      - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-city.csv
+        target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -42,6 +48,9 @@ input_ports:
       - vote_no_percentage
   - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     files:
+      - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-city.csv
+        target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.csv
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -62,6 +71,9 @@ input_ports:
       - vote_no_percentage
   - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
     files:
+      - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-city.csv
+        target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -82,6 +94,9 @@ input_ports:
       - vote_no_percentage
   - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
     files:
+      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-city.csv
+        target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -110,6 +125,9 @@ input_ports:
       - question_2_vote_no_percentage
   - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
     files:
+      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-city.csv
+        target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -130,6 +148,9 @@ input_ports:
       - vote_no_percentage
   - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
     files:
+      - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-city.csv
+        target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
@@ -150,6 +171,9 @@ input_ports:
       - vote_no_percentage
   - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
     files:
+      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.csv
+        target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-city.geojson
+        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
       - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson
         geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson

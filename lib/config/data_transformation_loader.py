@@ -14,8 +14,8 @@ from lib.tracking_decorator import TrackingDecorator
 @dataclass
 class File:
     source_file_name: str
-    target_file_name: str
-    geojson_template_file_name: str
+    target_file_name: Optional[str]
+    geojson_template_file_name: Optional[str]
 
 
 @dataclass
