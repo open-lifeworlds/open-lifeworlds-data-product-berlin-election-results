@@ -2,193 +2,425 @@
 input_ports:
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     files:
-      - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
   - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     files:
-      - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
   - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     files:
-      - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
   - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
     files:
-      - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
   - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
     files:
-      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - question_1_invalid_votes
+              - question_1_valid_votes
+              - question_1_vote_yes
+              - question_1_vote_no
+              - question_2_invalid_votes
+              - question_2_valid_votes
+              - question_2_vote_yes
+              - question_2_vote_no
+              - voter_turnout
+              - question_1_invalid_votes_percentage
+              - question_1_valid_votes_percentage
+              - question_1_vote_yes_percentage
+              - question_1_vote_no_percentage
+              - question_2_invalid_votes_percentage
+              - question_2_valid_votes_percentage
+              - question_2_vote_yes_percentage
+              - question_2_vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - question_1_invalid_votes
+              - question_1_valid_votes
+              - question_1_vote_yes
+              - question_1_vote_no
+              - question_2_invalid_votes
+              - question_2_valid_votes
+              - question_2_vote_yes
+              - question_2_vote_no
+              - voter_turnout
+              - question_1_invalid_votes_percentage
+              - question_1_valid_votes_percentage
+              - question_1_vote_yes_percentage
+              - question_1_vote_no_percentage
+              - question_2_invalid_votes_percentage
+              - question_2_valid_votes_percentage
+              - question_2_vote_yes_percentage
+              - question_2_vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - question_1_invalid_votes
-      - question_1_valid_votes
-      - question_1_vote_yes
-      - question_1_vote_no
-      - question_2_invalid_votes
-      - question_2_valid_votes
-      - question_2_vote_yes
-      - question_2_vote_no
-      - voter_turnout
-      - question_1_invalid_votes_percentage
-      - question_1_valid_votes_percentage
-      - question_1_vote_yes_percentage
-      - question_1_vote_no_percentage
-      - question_2_invalid_votes_percentage
-      - question_2_valid_votes_percentage
-      - question_2_vote_yes_percentage
-      - question_2_vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - question_1_invalid_votes
+              - question_1_valid_votes
+              - question_1_vote_yes
+              - question_1_vote_no
+              - question_2_invalid_votes
+              - question_2_valid_votes
+              - question_2_vote_yes
+              - question_2_vote_no
+              - voter_turnout
+              - question_1_invalid_votes_percentage
+              - question_1_valid_votes_percentage
+              - question_1_vote_yes_percentage
+              - question_1_vote_no_percentage
+              - question_2_invalid_votes_percentage
+              - question_2_valid_votes_percentage
+              - question_2_vote_yes_percentage
+              - question_2_vote_no_percentage
   - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
     files:
-      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
   - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
     files:
-      - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
   - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
     files:
-      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.csv
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-city.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
-      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson
-        geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
-      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage
+      - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson
-        geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
-    attributes:
-      - eligible_voters
-      - voters
-      - invalid_votes
-      - valid_votes
-      - vote_yes
-      - vote_no
-      - voter_turnout
-      - invalid_votes_percentage
-      - valid_votes_percentage
-      - vote_yes_percentage
-      - vote_no_percentage
+        source_files:
+          - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv
+            attributes:
+              - eligible_voters
+              - voters
+              - invalid_votes
+              - valid_votes
+              - vote_yes
+              - vote_no
+              - voter_turnout
+              - invalid_votes_percentage
+              - valid_votes_percentage
+              - vote_yes_percentage
+              - vote_no_percentage

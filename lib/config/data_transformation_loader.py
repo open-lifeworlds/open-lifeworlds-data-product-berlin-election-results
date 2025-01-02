@@ -12,17 +12,23 @@ from lib.tracking_decorator import TrackingDecorator
 
 
 @dataclass
-class File:
+class SourceFile:
     source_file_name: str
-    target_file_name: Optional[str]
+    source_file_prefix: Optional[str] = ""
+    attributes: Optional[List[str]] = field(default_factory=list)
+
+
+@dataclass
+class File:
     geojson_template_file_name: Optional[str]
+    target_file_name: Optional[str]
+    source_files: Optional[List[SourceFile]] = field(default_factory=list)
 
 
 @dataclass
 class InputPort:
     id: str
     files: Optional[List[File]] = field(default_factory=list)
-    attributes: Optional[List[str]] = field(default_factory=list)
 
 
 @dataclass

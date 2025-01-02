@@ -45,9 +45,6 @@ def blend_data(
             json_statistics[year][half_year] = {}
 
         for file in input_port.files or []:
-            source_file_path = os.path.join(
-                source_path, input_port.id, file.source_file_name
-            )
             target_file_path = os.path.join(
                 results_path, f"{input_port.id}-geojson", file.target_file_name
             )
@@ -56,96 +53,103 @@ def blend_data(
             )
 
             try:
-                # Load statistics
-                with open(source_file_path, "r") as csv_file:
-                    csv_statistics = pd.read_csv(csv_file, dtype=str)
+                # Load template geojson
+                with open(
+                    file=geojson_template_file_path, mode="r", encoding="utf-8"
+                ) as geojson_file:
+                    geojson = json.load(geojson_file, strict=False)
 
-                    if (
-                        file.target_file_name is not None
-                        and file.geojson_template_file_name is not None
-                    ):
-                        # Load geojson
-                        with open(
-                            file=geojson_template_file_path, mode="r", encoding="utf-8"
-                        ) as geojson_file:
-                            geojson = json.load(geojson_file, strict=False)
+                    # Iterate over source files
+                    for source_file in file.source_files or []:
+                        source_file_path = os.path.join(
+                            source_path, input_port.id, source_file.source_file_name
+                        )
 
-                            # Iterate over features
-                            for feature in sorted(
-                                geojson["features"],
-                                key=lambda feature: feature["properties"]["id"],
+                        # Load statistics
+                        with open(source_file_path, "r") as csv_file:
+                            csv_statistics = pd.read_csv(csv_file, dtype=str)
+
+                            if (
+                                file.target_file_name is not None
+                                and file.geojson_template_file_name is not None
                             ):
-                                # Build statistics structure
-                                if (
-                                    feature["properties"]["id"]
-                                    not in json_statistics[year][half_year]
+                                # Iterate over features
+                                for feature in sorted(
+                                    geojson["features"],
+                                    key=lambda feature: feature["properties"]["id"],
                                 ):
-                                    json_statistics[year][half_year][
+                                    # Build statistics structure
+                                    if (
                                         feature["properties"]["id"]
-                                    ] = {}
-
-                                # Filter statistics
-                                statistic_filtered = csv_statistics[
-                                    csv_statistics["id"].astype(str)
-                                    == str(feature["properties"]["id"])
-                                ]
-
-                                # Add ID and name attribute
-                                json_statistics[year][half_year][
-                                    feature["properties"]["id"]
-                                ]["id"] = feature["properties"]["id"]
-                                json_statistics[year][half_year][
-                                    feature["properties"]["id"]
-                                ]["name"] = (
-                                    feature["properties"]["name"]
-                                    if "name" in feature["properties"]
-                                    else feature["properties"]["id"]
-                                )
-
-                                # Iterate over attributes
-                                for attribute in input_port.attributes:
-                                    if not statistic_filtered[attribute].empty:
-                                        value = statistic_filtered[attribute].iloc[0]
-
-                                        # Convert value to float or int
-                                        value = (
-                                            float(value)
-                                            if "." in str(value)
-                                            else int(value)
-                                        )
-
-                                        feature["properties"][f"{attribute}"] = value
+                                        not in json_statistics[year][half_year]
+                                    ):
                                         json_statistics[year][half_year][
                                             feature["properties"]["id"]
-                                        ][attribute] = value
+                                        ] = {}
 
-                            if clean or not os.path.exists(target_file_path):
-                                os.makedirs(
-                                    os.path.dirname(target_file_path), exist_ok=True
-                                )
-                                with open(
-                                    target_file_path, "w", encoding="utf-8"
-                                ) as geojson_file:
-                                    json.dump(geojson, geojson_file, ensure_ascii=False)
-                                    converted += 1
+                                    # Filter statistics
+                                    statistic_filtered = csv_statistics[
+                                        csv_statistics["id"].astype(str)
+                                        == str(feature["properties"]["id"])
+                                    ]
 
-                                    not quiet and print(
-                                        f"✓ Convert {os.path.basename(target_file_path)}"
+                                    # Add ID and name attribute
+                                    json_statistics[year][half_year][
+                                        feature["properties"]["id"]
+                                    ]["id"] = feature["properties"]["id"]
+                                    json_statistics[year][half_year][
+                                        feature["properties"]["id"]
+                                    ]["name"] = (
+                                        feature["properties"]["name"]
+                                        if "name" in feature["properties"]
+                                        else feature["properties"]["id"]
                                     )
-                            else:
-                                already_exists += 1
-                                not quiet and print(
-                                    f"✓ Already exists {os.path.basename(target_file_path)}"
-                                )
-                                continue
-                    else:
-                        for row in csv_statistics.iterrows():
-                            id = row["id"]
-                            pass
+
+                                    # Iterate over attributes
+                                    for attribute in source_file.attributes:
+                                        if not statistic_filtered[attribute].empty:
+                                            value = statistic_filtered[attribute].iloc[
+                                                0
+                                            ]
+
+                                            # Convert value to float or int
+                                            value = (
+                                                float(value)
+                                                if "." in str(value)
+                                                else int(value)
+                                            )
+
+                                            feature["properties"][
+                                                f"{source_file.source_file_prefix}{attribute}"
+                                            ] = value
+                                            json_statistics[year][half_year][
+                                                feature["properties"]["id"]
+                                            ][
+                                                f"{source_file.source_file_prefix}{attribute}"
+                                            ] = value
+
+                # Save target geojson
+                if clean or not os.path.exists(target_file_path):
+                    os.makedirs(os.path.dirname(target_file_path), exist_ok=True)
+                    with open(target_file_path, "w", encoding="utf-8") as geojson_file:
+                        json.dump(geojson, geojson_file, ensure_ascii=False)
+                        converted += 1
+
+                        not quiet and print(
+                            f"✓ Convert {os.path.basename(target_file_path)}"
+                        )
+                else:
+                    already_exists += 1
+                    not quiet and print(
+                        f"✓ Already exists {os.path.basename(target_file_path)}"
+                    )
+                    continue
+
             except Exception as e:
                 exception += 1
                 not quiet and print(f"✗️ Exception: {str(e)}")
 
+        # Save statistics
         if clean or not os.path.exists(statistics_file_path):
             os.makedirs(os.path.dirname(statistics_file_path), exist_ok=True)
             with open(statistics_file_path, "w", encoding="utf-8") as json_file:
