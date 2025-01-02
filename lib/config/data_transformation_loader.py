@@ -32,8 +32,14 @@ class InputPort:
 
 
 @dataclass
-class DataTransformation:
+class InputPortGroup:
+    id: str
     input_ports: Optional[List[InputPort]] = field(default_factory=list)
+
+
+@dataclass
+class DataTransformation:
+    input_port_groups: Optional[List[InputPortGroup]] = field(default_factory=list)
 
 
 class Loader(yaml.SafeLoader):

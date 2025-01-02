@@ -24,41 +24,43 @@ def generate_geojson_property_completeness_metrics(
 
     files = []
 
-    # Iterate over input ports
-    for input_port in data_transformation.input_ports or []:
-        for file in input_port.files or []:
-            target_file_path = os.path.join(
-                results_path, f"{input_port.id}-geojson", file.target_file_name
-            )
+    for input_port_group in data_transformation.input_port_groups or []:
+        for input_port in input_port_group.input_ports or []:
+            for file in input_port.files or []:
+                target_file_path = os.path.join(
+                    results_path,
+                    f"{input_port_group.id}-geojson",
+                    file.target_file_name,
+                )
 
-            # Load geojson
-            with open(
-                file=target_file_path, mode="r", encoding="utf-8"
-            ) as geojson_file:
-                geojson = json.load(geojson_file, strict=False)
+                # Load geojson
+                with open(
+                    file=target_file_path, mode="r", encoding="utf-8"
+                ) as geojson_file:
+                    geojson = json.load(geojson_file, strict=False)
 
-                count = 0
-                count_all = len(geojson["features"])
+                    count = 0
+                    count_all = len(geojson["features"])
 
-                for source_file in file.source_files or []:
-                    for feature in geojson["features"]:
-                        if all(
-                            f"{source_file.source_file_prefix}{property}"
-                            in feature["properties"]
-                            for property in source_file.attributes
-                        ):
-                            count += 1
+                    for source_file in file.source_files or []:
+                        for feature in geojson["features"]:
+                            if all(
+                                f"{source_file.source_file_prefix}{property}"
+                                in feature["properties"]
+                                for property in source_file.attributes
+                            ):
+                                count += 1
 
-                files.append(
-                    File(
-                        name=file.target_file_name,
-                        value=count / len(geojson["features"]),
+                    files.append(
+                        File(
+                            name=file.target_file_name,
+                            value=count / len(geojson["features"]),
+                        )
                     )
-                )
 
-                print(
-                    f"{str(count).rjust(4)} / {str(count_all).rjust(4)} ({str(round((count / count_all * 100))).rjust(3)}%) {file.target_file_name}"
-                )
+                    print(
+                        f"{str(count).rjust(4)} / {str(count_all).rjust(4)} ({str(round((count / count_all * 100))).rjust(3)}%) {file.target_file_name}"
+                    )
 
     # Create the observability section if it does not exist
     if data_product_manifest.observability.quality is None:
