@@ -40,9 +40,11 @@ def generate_geojson_property_completeness_metrics(
                     geojson = json.load(geojson_file, strict=False)
 
                     count = 0
-                    count_all = len(geojson["features"])
+                    count_all = 0
 
                     for source_file in file.source_files or []:
+                        count_all += len(geojson["features"])
+
                         for feature in geojson["features"]:
                             if all(
                                 f"{source_file.source_file_prefix}{property}"
@@ -54,7 +56,7 @@ def generate_geojson_property_completeness_metrics(
                     files.append(
                         File(
                             name=file.target_file_name,
-                            value=count / len(geojson["features"]),
+                            value=round((count / count_all * 100)),
                         )
                     )
 

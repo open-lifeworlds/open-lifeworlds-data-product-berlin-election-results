@@ -7,7 +7,7 @@
 * description: Data product combining Berlin election results and geodata
 * url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 ## Input Ports
 
@@ -177,6 +177,44 @@
 
 * [berlin-electoral-districts-federal-election-2021.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-federal-election-2021/berlin-electoral-districts-federal-election-2021.geojson)
 
+### Berlin Election Results Berlin Election 2016
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016
+* license: GPLv3
+* updated: 2025-05-13
+
+**Files**
+
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv)
+
+### Berlin Election Results Berlin Election 2023
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2023
+* license: GPLv3
+* updated: 2025-05-13
+
+**Files**
+
+* [berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv)
+* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv)
+
 ### Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen
 
 * owner: Open Lifeworlds
@@ -325,12 +363,39 @@
 
 ## Output Ports
 
+### Berlin Election Results Berlin Election Geojson
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-berlin-election-geojson
+* license: CC-BY 4.0
+* updated: 2025-05-15
+
+**Files**
+
+* [berlin-election-results-berlin-election-2016-00-city.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2016-00-city.geojson)
+* [berlin-election-results-berlin-election-2016-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2016-00-districts.geojson)
+* [berlin-election-results-berlin-election-2016-00-electoral-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2016-00-electoral-districts.geojson)
+* [berlin-election-results-berlin-election-2023-00-city.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2023-00-city.geojson)
+* [berlin-election-results-berlin-election-2023-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2023-00-districts.geojson)
+* [berlin-election-results-berlin-election-2023-00-electoral-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2023-00-electoral-districts.geojson)
+
+### Berlin Election Results Berlin Election Statistics
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-berlin-election-statistics
+* license: CC-BY 4.0
+* updated: 2025-05-15
+
+**Files**
+
+* [berlin-election-results-berlin-election-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-statistics/berlin-election-results-berlin-election-statistics.json)
+
 ### Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen Geojson
 
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -343,7 +408,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -354,7 +419,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -367,7 +432,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -378,7 +443,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -391,7 +456,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -402,7 +467,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -415,7 +480,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -426,7 +491,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -439,7 +504,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -450,7 +515,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -463,7 +528,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -474,7 +539,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -487,7 +552,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -498,7 +563,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -511,7 +576,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-14
+* updated: 2025-05-15
 
 **Files**
 
@@ -525,30 +590,36 @@
 
 | File | Value |
 | --- | --- |
-| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-electoral-districts.geojson | 0.37 |
-| berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-electoral-districts.geojson | 0.41 |
-| berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-electoral-districts.geojson | 0.5 |
-| berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-electoral-districts.geojson | 0.5 |
-| berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson | 0.91 |
-| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson | 0.99 |
-| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-city.geojson | 1.0 |
-| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson | 1.0 |
-| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson | 0.99 |
+| berlin-election-results-berlin-election-2016-00-city.geojson | 100 |
+| berlin-election-results-berlin-election-2016-00-districts.geojson | 100 |
+| berlin-election-results-berlin-election-2016-00-electoral-districts.geojson | 100 |
+| berlin-election-results-berlin-election-2023-00-city.geojson | 100 |
+| berlin-election-results-berlin-election-2023-00-districts.geojson | 100 |
+| berlin-election-results-berlin-election-2023-00-electoral-districts.geojson | 100 |
+| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson | 100 |
+| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-electoral-districts.geojson | 37 |
+| berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-city.geojson | 100 |
+| berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-electoral-districts.geojson | 41 |
+| berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-city.geojson | 100 |
+| berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-electoral-districts.geojson | 50 |
+| berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-city.geojson | 100 |
+| berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-electoral-districts.geojson | 50 |
+| berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-city.geojson | 100 |
+| berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-electoral-districts.geojson | 91 |
+| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-city.geojson | 100 |
+| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-electoral-districts.geojson | 100 |
+| berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-city.geojson | 100 |
+| berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson | 99 |
+| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-city.geojson | 100 |
+| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-districts.geojson | 100 |
+| berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson | 99 |
 
 ## Classification
 
