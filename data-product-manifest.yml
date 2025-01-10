@@ -6,7 +6,7 @@ metadata:
   description: Data product combining Berlin election results and geodata
   url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
   license: CC-BY 4.0
-  updated: 2025-05-15
+  updated: 2025-05-16
   schema:
 input_ports:
   - id: berlin-lor-geodata-geojson
@@ -214,6 +214,38 @@ input_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
+  - id: berlin-election-results-federal-election-2017
+    metadata:
+      name: Berlin Election Results Federal Election 2017
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2017
+      license: GPLv3
+      updated: 2025-05-15
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-first-vote-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-first-vote-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-first-vote-electoral-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-vote-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.csv
+  - id: berlin-election-results-federal-election-2021
+    metadata:
+      name: Berlin Election Results Federal Election 2021
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2021
+      license: GPLv3
+      updated: 2025-05-15
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-first-vote-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-first-vote-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-first-vote-electoral-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-second-vote-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.csv
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     metadata:
       name: Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen
@@ -368,7 +400,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-berlin-election-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-geojson/berlin-election-results-berlin-election-2016-00-city.geojson
@@ -384,10 +416,37 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-berlin-election-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-berlin-election-statistics/berlin-election-results-berlin-election-statistics.json
+  - id: berlin-election-results-federal-election-geojson
+    metadata:
+      name: Berlin Election Results Federal Election Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-federal-election-geojson
+      license: CC-BY 4.0
+      updated: 2025-05-16
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2017-00-city.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2017-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2017-00-electoral-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2021-00-city.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2021-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2021-00-electoral-districts.geojson
+  - id: berlin-election-results-federal-election-statistics
+    metadata:
+      name: Berlin Election Results Federal Election Statistics
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-federal-election-statistics
+      license: CC-BY 4.0
+      updated: 2025-05-16
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-statistics/berlin-election-results-federal-election-statistics.json
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
     metadata:
       name: Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen Geojson
@@ -395,7 +454,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson
@@ -408,7 +467,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics.json
@@ -419,7 +478,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-city.geojson
@@ -432,7 +491,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics.json
@@ -443,7 +502,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-city.geojson
@@ -456,7 +515,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics.json
@@ -467,7 +526,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-city.geojson
@@ -480,7 +539,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics.json
@@ -491,7 +550,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-city.geojson
@@ -504,7 +563,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics.json
@@ -515,7 +574,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-city.geojson
@@ -528,7 +587,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics.json
@@ -539,7 +598,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-city.geojson
@@ -552,7 +611,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics.json
@@ -563,7 +622,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-city.geojson
@@ -576,7 +635,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics
       license: CC-BY 4.0
-      updated: 2025-05-15
+      updated: 2025-05-16
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics.json
@@ -596,6 +655,18 @@ observability:
         - name: berlin-election-results-berlin-election-2023-00-districts.geojson
           value: 100
         - name: berlin-election-results-berlin-election-2023-00-electoral-districts.geojson
+          value: 100
+        - name: berlin-election-results-federal-election-2017-00-city.geojson
+          value: 100
+        - name: berlin-election-results-federal-election-2017-00-districts.geojson
+          value: 100
+        - name: berlin-election-results-federal-election-2017-00-electoral-districts.geojson
+          value: 100
+        - name: berlin-election-results-federal-election-2021-00-city.geojson
+          value: 100
+        - name: berlin-election-results-federal-election-2021-00-districts.geojson
+          value: 100
+        - name: berlin-election-results-federal-election-2021-00-electoral-districts.geojson
           value: 100
         - name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson
           value: 100
