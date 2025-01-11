@@ -1581,6 +1581,324 @@ input_port_groups:
                   - voter_turnout
                   - invalid_votes_percentage
                   - valid_votes_percentage
+  - id: berlin-election-results-european-election
+    input_ports:
+      - id: berlin-election-results-european-election-2019
+        files:
+          - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
+            target_file_name: berlin-election-results-european-election-2019-00-city.geojson
+            source_files:
+              - source_file_name: berlin-election-results-european-election-2019-electoral-results-city.csv
+                attributes:
+                  - eligible_voters
+                  - eligible_voters_a1
+                  - eligible_voters_a2
+                  - eligible_voters_a3
+                  - voters
+                  - voters_b1
+                  - invalid_votes
+                  - valid_votes
+                  - party_spd
+                  - party_cdu
+                  - party_grüne
+                  - party_die_linke
+                  - party_afd
+                  - party_piraten
+                  - party_fdp
+                  - party_tierschutzpartei
+                  - party_die_partei
+                  - party_npd
+                  - party_familie
+                  - party_volksabstimmung
+                  - party_ödp
+                  - party_freie_wähler
+                  - party_dkp
+                  - party_mlpd
+                  - party_sgp
+                  - party_bp
+                  - party_tierschutz_hier
+                  - party_tierschutzallianz
+                  - party_bündnis_c
+                  - party_big
+                  - party_die_direkte
+                  - party_diem25
+                  - party_III_weg
+                  - party_die_grauen
+                  - party_die_rechte
+                  - party_die_violetten
+                  - party_liebe
+                  - party_die_frauen
+                  - party_graue_panther
+                  - party_lkr
+                  - party_menschliche_welt
+                  - party_nl
+                  - party_ökolinx
+                  - party_partei_für_die_tiere
+                  - party_gesundheitsforschung
+                  - party_volt
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
+          - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
+            target_file_name: berlin-election-results-european-election-2019-00-districts.geojson
+            source_files:
+              - source_file_name: berlin-election-results-european-election-2019-electoral-results-districts.csv
+                attributes:
+                  - eligible_voters
+                  - eligible_voters_a1
+                  - eligible_voters_a2
+                  - eligible_voters_a3
+                  - voters
+                  - voters_b1
+                  - invalid_votes
+                  - valid_votes
+                  - party_spd
+                  - party_cdu
+                  - party_grüne
+                  - party_die_linke
+                  - party_afd
+                  - party_piraten
+                  - party_fdp
+                  - party_tierschutzpartei
+                  - party_die_partei
+                  - party_npd
+                  - party_familie
+                  - party_volksabstimmung
+                  - party_ödp
+                  - party_freie_wähler
+                  - party_dkp
+                  - party_mlpd
+                  - party_sgp
+                  - party_bp
+                  - party_tierschutz_hier
+                  - party_tierschutzallianz
+                  - party_bündnis_c
+                  - party_big
+                  - party_die_direkte
+                  - party_diem25
+                  - party_III_weg
+                  - party_die_grauen
+                  - party_die_rechte
+                  - party_die_violetten
+                  - party_liebe
+                  - party_die_frauen
+                  - party_graue_panther
+                  - party_lkr
+                  - party_menschliche_welt
+                  - party_nl
+                  - party_ökolinx
+                  - party_partei_für_die_tiere
+                  - party_gesundheitsforschung
+                  - party_volt
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
+          - geojson_template_file_name: berlin-electoral-districts-european-election-2019/berlin-electoral-districts-european-election-2019.geojson
+            target_file_name: berlin-election-results-european-election-2019-00-electoral-districts.geojson
+            source_files:
+              - source_file_name: berlin-election-results-european-election-2019-electoral-results-electoral-districts.csv
+                attributes:
+                  - eligible_voters
+                  - eligible_voters_a1
+                  - eligible_voters_a2
+                  - eligible_voters_a3
+                  - voters
+                  - voters_b1
+                  - invalid_votes
+                  - valid_votes
+                  - party_spd
+                  - party_cdu
+                  - party_grüne
+                  - party_die_linke
+                  - party_afd
+                  - party_piraten
+                  - party_fdp
+                  - party_tierschutzpartei
+                  - party_die_partei
+                  - party_npd
+                  - party_familie
+                  - party_volksabstimmung
+                  - party_ödp
+                  - party_freie_wähler
+                  - party_dkp
+                  - party_mlpd
+                  - party_sgp
+                  - party_bp
+                  - party_tierschutz_hier
+                  - party_tierschutzallianz
+                  - party_bündnis_c
+                  - party_big
+                  - party_die_direkte
+                  - party_diem25
+                  - party_III_weg
+                  - party_die_grauen
+                  - party_die_rechte
+                  - party_die_violetten
+                  - party_liebe
+                  - party_die_frauen
+                  - party_graue_panther
+                  - party_lkr
+                  - party_menschliche_welt
+                  - party_nl
+                  - party_ökolinx
+                  - party_partei_für_die_tiere
+                  - party_gesundheitsforschung
+                  - party_volt
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
+      - id: berlin-election-results-european-election-2024
+        files:
+          - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
+            target_file_name: berlin-election-results-european-election-2024-00-city.geojson
+            source_files:
+              - source_file_name: berlin-election-results-european-election-2024-electoral-results-city.csv
+                attributes:
+                  - eligible_voters
+                  - eligible_voters_a1
+                  - eligible_voters_a2
+                  - eligible_voters_a3
+                  - voters
+                  - voters_with_voting_license
+                  - valid_votes
+                  - invalid_votes
+                  - party_grüne
+                  - party_cdu
+                  - party_spd
+                  - party_die_linke
+                  - party_afd
+                  - party_die_partei
+                  - party_fdp
+                  - party_tierschutzpartei
+                  - party_mera25
+                  - party_volt
+                  - party_piraten
+                  - party_familie
+                  - party_ödp
+                  - party_freie_wäher
+                  - party_tierschutz_hier
+                  - party_big
+                  - party_verjüngungsforschung
+                  - party_pdh
+                  - party_heimat
+                  - party_dkp
+                  - party_menschliche_welt
+                  - party_bündnis_c
+                  - party_mlpd
+                  - party_sgp
+                  - party_abg
+                  - party_die_basis
+                  - party_bündnis_deutschand
+                  - party_bsw
+                  - party_dawa
+                  - party_klimaliste
+                  - party_letzte_generation
+                  - party_pdv
+                  - party_pdf
+                  - party_v_partei3
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
+          - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
+            target_file_name: berlin-election-results-european-election-2024-00-districts.geojson
+            source_files:
+              - source_file_name: berlin-election-results-european-election-2024-electoral-results-districts.csv
+                attributes:
+                  - eligible_voters
+                  - eligible_voters_a1
+                  - eligible_voters_a2
+                  - eligible_voters_a3
+                  - voters
+                  - voters_with_voting_license
+                  - valid_votes
+                  - invalid_votes
+                  - party_grüne
+                  - party_cdu
+                  - party_spd
+                  - party_die_linke
+                  - party_afd
+                  - party_die_partei
+                  - party_fdp
+                  - party_tierschutzpartei
+                  - party_mera25
+                  - party_volt
+                  - party_piraten
+                  - party_familie
+                  - party_ödp
+                  - party_freie_wäher
+                  - party_tierschutz_hier
+                  - party_big
+                  - party_verjüngungsforschung
+                  - party_pdh
+                  - party_heimat
+                  - party_dkp
+                  - party_menschliche_welt
+                  - party_bündnis_c
+                  - party_mlpd
+                  - party_sgp
+                  - party_abg
+                  - party_die_basis
+                  - party_bündnis_deutschand
+                  - party_bsw
+                  - party_dawa
+                  - party_klimaliste
+                  - party_letzte_generation
+                  - party_pdv
+                  - party_pdf
+                  - party_v_partei3
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
+          - geojson_template_file_name: berlin-electoral-districts-european-election-2024/berlin-electoral-districts-european-election-2024.geojson
+            target_file_name: berlin-election-results-european-election-2024-00-electoral-districts.geojson
+            source_files:
+              - source_file_name: berlin-election-results-european-election-2024-electoral-results-electoral-districts.csv
+                attributes:
+                  - eligible_voters
+                  - eligible_voters_a1
+                  - eligible_voters_a2
+                  - eligible_voters_a3
+                  - voters
+                  - voters_with_voting_license
+                  - valid_votes
+                  - invalid_votes
+                  - party_grüne
+                  - party_cdu
+                  - party_spd
+                  - party_die_linke
+                  - party_afd
+                  - party_die_partei
+                  - party_fdp
+                  - party_tierschutzpartei
+                  - party_mera25
+                  - party_volt
+                  - party_piraten
+                  - party_familie
+                  - party_ödp
+                  - party_freie_wäher
+                  - party_tierschutz_hier
+                  - party_big
+                  - party_verjüngungsforschung
+                  - party_pdh
+                  - party_heimat
+                  - party_dkp
+                  - party_menschliche_welt
+                  - party_bündnis_c
+                  - party_mlpd
+                  - party_sgp
+                  - party_abg
+                  - party_die_basis
+                  - party_bündnis_deutschand
+                  - party_bsw
+                  - party_dawa
+                  - party_klimaliste
+                  - party_letzte_generation
+                  - party_pdv
+                  - party_pdf
+                  - party_v_partei3
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     input_ports:
     - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
