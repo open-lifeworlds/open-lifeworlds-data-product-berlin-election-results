@@ -18,6 +18,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -62,9 +65,50 @@ input_port_groups:
                 - individual_applicant_16
                 - individual_applicant_17
                 - individual_applicant_18
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
+                - individual_applicant_13_percentage
+                - individual_applicant_14_percentage
+                - individual_applicant_15_percentage
+                - individual_applicant_16_percentage
+                - individual_applicant_17_percentage
+                - individual_applicant_18_percentage
             - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv
               source_file_prefix: second_vote_
               attributes:
@@ -76,6 +120,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -102,9 +149,32 @@ input_port_groups:
                 - party_menschliche_welt
                 - party_mieterpartei
                 - party_gesundheitsforschung
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
             - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv
               source_file_prefix: district_council_
               attributes:
@@ -116,6 +186,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -168,9 +241,58 @@ input_port_groups:
                 - party_ökolinx-arl_b_f-k
                 - party_pne
                 - party_banc
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
+                - individual_applicant_13_percentage
+                - individual_applicant_14_percentage
+                - individual_applicant_15_percentage
+                - individual_applicant_16_percentage
+                - individual_applicant_17_percentage
+                - individual_applicant_18_percentage
+                - party_deutsche_konservative_percentage
+                - party_pdw_percentage
+                - party_aktive_bürger_percentage
+                - party_win_percentage
+                - party_wiss_percentage
+                - party_ökolinx-arl_b_f-k_percentage
+                - party_pne_percentage
+                - party_banc_percentage
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
           target_file_name: berlin-election-results-berlin-election-2016-00-districts.geojson
           source_files:
@@ -185,6 +307,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -229,9 +354,50 @@ input_port_groups:
                 - individual_applicant_16
                 - individual_applicant_17
                 - individual_applicant_18
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
+                - individual_applicant_13_percentage
+                - individual_applicant_14_percentage
+                - individual_applicant_15_percentage
+                - individual_applicant_16_percentage
+                - individual_applicant_17_percentage
+                - individual_applicant_18_percentage
             - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv
               source_file_prefix: second_vote_
               attributes:
@@ -243,6 +409,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -269,9 +438,32 @@ input_port_groups:
                 - party_menschliche_welt
                 - party_mieterpartei
                 - party_gesundheitsforschung
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
             - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv
               source_file_prefix: district_council_
               attributes:
@@ -283,6 +475,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -335,9 +530,58 @@ input_port_groups:
                 - party_ökolinx-arl_b_f-k
                 - party_pne
                 - party_banc
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
+                - individual_applicant_13_percentage
+                - individual_applicant_14_percentage
+                - individual_applicant_15_percentage
+                - individual_applicant_16_percentage
+                - individual_applicant_17_percentage
+                - individual_applicant_18_percentage
+                - party_deutsche_konservative_percentage
+                - party_pdw_percentage
+                - party_aktive_bürger_percentage
+                - party_win_percentage
+                - party_wiss_percentage
+                - party_ökolinx-arl_b_f-k_percentage
+                - party_pne_percentage
+                - party_banc_percentage
         - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
           target_file_name: berlin-election-results-berlin-election-2016-00-electoral-districts.geojson
           source_files:
@@ -352,6 +596,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -396,9 +643,50 @@ input_port_groups:
                 - individual_applicant_16
                 - individual_applicant_17
                 - individual_applicant_18
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
+                - individual_applicant_13_percentage
+                - individual_applicant_14_percentage
+                - individual_applicant_15_percentage
+                - individual_applicant_16_percentage
+                - individual_applicant_17_percentage
+                - individual_applicant_18_percentage
             - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv
               source_file_prefix: second_vote_
               attributes:
@@ -410,6 +698,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -436,9 +727,32 @@ input_port_groups:
                 - party_menschliche_welt
                 - party_mieterpartei
                 - party_gesundheitsforschung
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
             - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv
               source_file_prefix: district_council_
               attributes:
@@ -450,6 +764,9 @@ input_port_groups:
                 - voters_b1
                 - invalid_votes
                 - valid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -502,9 +819,58 @@ input_port_groups:
                 - party_ökolinx-arl_b_f-k
                 - party_pne
                 - party_banc
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_fdp_percentage
+                - party_tierschutzpartei_percentage
+                - party_pro_deutschland_percentage
+                - party_die_partei_percentage
+                - party_big_percentage
+                - party_dkp_percentage
+                - party_ödp_percentage
+                - party_psg_percentage
+                - party_büso_percentage
+                - party_b_percentage
+                - party_dl_percentage
+                - party_alfa_percentage
+                - party_tierschutzallianz_percentage
+                - party_afd_percentage
+                - party_die_einheit_percentage
+                - party_die_violetten_percentage
+                - party_graue_panther_percentage
+                - party_menschliche_welt_percentage
+                - party_mieterpartei_percentage
+                - party_gesundheitsforschung_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
+                - individual_applicant_13_percentage
+                - individual_applicant_14_percentage
+                - individual_applicant_15_percentage
+                - individual_applicant_16_percentage
+                - individual_applicant_17_percentage
+                - individual_applicant_18_percentage
+                - party_deutsche_konservative_percentage
+                - party_pdw_percentage
+                - party_aktive_bürger_percentage
+                - party_win_percentage
+                - party_wiss_percentage
+                - party_ökolinx-arl_b_f-k_percentage
+                - party_pne_percentage
+                - party_banc_percentage
       - id: berlin-election-results-berlin-election-2023
         files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
@@ -521,6 +887,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -569,9 +938,54 @@ input_port_groups:
                 - individual_applicant_10
                 - individual_applicant_11
                 - individual_applicant_12
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_graue_panther_percentage
+                - party_npd_percentage
+                - party_gesundheitsforschung_percentage
+                - party_lkr_percentage
+                - party_dkp_percentage
+                - party_sgp_percentage
+                - party_büso_percentage
+                - party_menschliche_welt_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_bildet_berlin_percentage
+                - party_dl_percentage
+                - party_deutsche_konservative_percentage
+                - party_die_grauen_percentage
+                - party_neue_demokraten_percentage
+                - party_rep_percentage
+                - party_du_percentage
+                - party_bündnis21_percentage
+                - party_die_frauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_team_todenhöfer_percentage
+                - party_volt_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
             - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
               source_file_prefix: second_vote_
               attributes:
@@ -583,6 +997,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -619,6 +1036,42 @@ input_port_groups:
                 - party_die_humanisten
                 - party_team_todenhöfer
                 - party_volt
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_graue_panther_percentage
+                - party_npd_percentage
+                - party_gesundheitsforschung_percentage
+                - party_lkr_percentage
+                - party_dkp_percentage
+                - party_sgp_percentage
+                - party_büso_percentage
+                - party_menschliche_welt_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_bildet_berlin_percentage
+                - party_dl_percentage
+                - party_deutsche_konservative_percentage
+                - party_die_grauen_percentage
+                - party_neue_demokraten_percentage
+                - party_rep_percentage
+                - party_du_percentage
+                - party_bündnis21_percentage
+                - party_die_frauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_team_todenhöfer_percentage
+                - party_volt_percentage
             - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv
               source_file_prefix: district_council_
               attributes:
@@ -630,6 +1083,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -655,14 +1111,41 @@ input_port_groups:
                 - voters_alliance_die_waehlbaren.de
                 - voters_alliance_olf
                 - voters_alliance_bärlä
-                - voters_alliance_wsB_spandau
+                - voters_alliance_wsb_spandau
                 - voters_alliance_tkbb
                 - voters_alliance_wsb
                 - voters_alliance_wiss
                 - voters_alliance_wsb
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_lkr_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_die_grauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_volt_percentage
+                - voters_alliance_wsb_f_k_percentage
+                - voters_alliance_die_waehlbaren.de_percentage
+                - voters_alliance_olf_percentage
+                - voters_alliance_bärlä_percentage
+                - voters_alliance_wsb_spandau_percentage
+                - voters_alliance_tkbb_percentage
+                - voters_alliance_wsb_percentage
+                - voters_alliance_wiss_percentage
+                - voters_alliance_wsb_percentage
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
           target_file_name: berlin-election-results-berlin-election-2023-00-districts.geojson
           source_files:
@@ -677,6 +1160,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -725,9 +1211,54 @@ input_port_groups:
                 - individual_applicant_10
                 - individual_applicant_11
                 - individual_applicant_12
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_graue_panther_percentage
+                - party_npd_percentage
+                - party_gesundheitsforschung_percentage
+                - party_lkr_percentage
+                - party_dkp_percentage
+                - party_sgp_percentage
+                - party_büso_percentage
+                - party_menschliche_welt_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_bildet_berlin_percentage
+                - party_dl_percentage
+                - party_deutsche_konservative_percentage
+                - party_die_grauen_percentage
+                - party_neue_demokraten_percentage
+                - party_rep_percentage
+                - party_du_percentage
+                - party_bündnis21_percentage
+                - party_die_frauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_team_todenhöfer_percentage
+                - party_volt_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
             - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
               source_file_prefix: second_vote_
               attributes:
@@ -739,6 +1270,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -775,9 +1309,42 @@ input_port_groups:
                 - party_die_humanisten
                 - party_team_todenhöfer
                 - party_volt
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_graue_panther_percentage
+                - party_npd_percentage
+                - party_gesundheitsforschung_percentage
+                - party_lkr_percentage
+                - party_dkp_percentage
+                - party_sgp_percentage
+                - party_büso_percentage
+                - party_menschliche_welt_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_bildet_berlin_percentage
+                - party_dl_percentage
+                - party_deutsche_konservative_percentage
+                - party_die_grauen_percentage
+                - party_neue_demokraten_percentage
+                - party_rep_percentage
+                - party_du_percentage
+                - party_bündnis21_percentage
+                - party_die_frauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_team_todenhöfer_percentage
+                - party_volt_percentage
             - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv
               source_file_prefix: district_council_
               attributes:
@@ -789,6 +1356,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -814,14 +1384,41 @@ input_port_groups:
                 - voters_alliance_die_waehlbaren.de
                 - voters_alliance_olf
                 - voters_alliance_bärlä
-                - voters_alliance_wsB_spandau
+                - voters_alliance_wsb_spandau
                 - voters_alliance_tkbb
                 - voters_alliance_wsb
                 - voters_alliance_wiss
                 - voters_alliance_wsb
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_lkr_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_die_grauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_volt_percentage
+                - voters_alliance_wsb_f_k_percentage
+                - voters_alliance_die_waehlbaren.de_percentage
+                - voters_alliance_olf_percentage
+                - voters_alliance_bärlä_percentage
+                - voters_alliance_wsb_spandau_percentage
+                - voters_alliance_tkbb_percentage
+                - voters_alliance_wsb_percentage
+                - voters_alliance_wiss_percentage
+                - voters_alliance_wsb_percentage
         - geojson_template_file_name: berlin-electoral-districts-berlin-election-2021/berlin-electoral-districts-berlin-election-2021.geojson
           target_file_name: berlin-election-results-berlin-election-2023-00-electoral-districts.geojson
           source_files:
@@ -836,6 +1433,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -884,9 +1484,54 @@ input_port_groups:
                 - individual_applicant_10
                 - individual_applicant_11
                 - individual_applicant_12
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_graue_panther_percentage
+                - party_npd_percentage
+                - party_gesundheitsforschung_percentage
+                - party_lkr_percentage
+                - party_dkp_percentage
+                - party_sgp_percentage
+                - party_büso_percentage
+                - party_menschliche_welt_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_bildet_berlin_percentage
+                - party_dl_percentage
+                - party_deutsche_konservative_percentage
+                - party_die_grauen_percentage
+                - party_neue_demokraten_percentage
+                - party_rep_percentage
+                - party_du_percentage
+                - party_bündnis21_percentage
+                - party_die_frauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_team_todenhöfer_percentage
+                - party_volt_percentage
+                - individual_applicant_1_percentage
+                - individual_applicant_2_percentage
+                - individual_applicant_3_percentage
+                - individual_applicant_4_percentage
+                - individual_applicant_5_percentage
+                - individual_applicant_6_percentage
+                - individual_applicant_7_percentage
+                - individual_applicant_8_percentage
+                - individual_applicant_9_percentage
+                - individual_applicant_10_percentage
+                - individual_applicant_11_percentage
+                - individual_applicant_12_percentage
             - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
               source_file_prefix: second_vote_
               attributes:
@@ -898,6 +1543,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -934,9 +1582,42 @@ input_port_groups:
                 - party_die_humanisten
                 - party_team_todenhöfer
                 - party_volt
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_graue_panther_percentage
+                - party_npd_percentage
+                - party_gesundheitsforschung_percentage
+                - party_lkr_percentage
+                - party_dkp_percentage
+                - party_sgp_percentage
+                - party_büso_percentage
+                - party_menschliche_welt_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_bildet_berlin_percentage
+                - party_dl_percentage
+                - party_deutsche_konservative_percentage
+                - party_die_grauen_percentage
+                - party_neue_demokraten_percentage
+                - party_rep_percentage
+                - party_du_percentage
+                - party_bündnis21_percentage
+                - party_die_frauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_team_todenhöfer_percentage
+                - party_volt_percentage
             - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv
               source_file_prefix: district_council_
               attributes:
@@ -948,6 +1629,9 @@ input_port_groups:
                 - voters_b1
                 - valid_votes
                 - invalid_votes
+                - voter_turnout
+                - invalid_votes_percentage
+                - valid_votes_percentage
                 - party_spd
                 - party_cdu
                 - party_grüne
@@ -973,14 +1657,41 @@ input_port_groups:
                 - voters_alliance_die_waehlbaren.de
                 - voters_alliance_olf
                 - voters_alliance_bärlä
-                - voters_alliance_wsB_spandau
+                - voters_alliance_wsb_spandau
                 - voters_alliance_tkbb
                 - voters_alliance_wsb
                 - voters_alliance_wiss
                 - voters_alliance_wsb
-                - voter_turnout
-                - invalid_votes_percentage
-                - valid_votes_percentage
+                - party_spd_percentage
+                - party_cdu_percentage
+                - party_grüne_percentage
+                - party_die_linke_percentage
+                - party_afd_percentage
+                - party_fdp_percentage
+                - party_die_partei_percentage
+                - party_tierschutzpartei_percentage
+                - party_piraten_percentage
+                - party_npd_percentage
+                - party_lkr_percentage
+                - party_b_percentage
+                - party_ödp_percentage
+                - party_die_basis_percentage
+                - party_die_grauen_percentage
+                - party_freie_wähler_percentage
+                - party_klimaliste_berlin_percentage
+                - party_ld_percentage
+                - party_mieterpartei_percentage
+                - party_die_humanisten_percentage
+                - party_volt_percentage
+                - voters_alliance_wsb_f_k_percentage
+                - voters_alliance_die_waehlbaren.de_percentage
+                - voters_alliance_olf_percentage
+                - voters_alliance_bärlä_percentage
+                - voters_alliance_wsb_spandau_percentage
+                - voters_alliance_tkbb_percentage
+                - voters_alliance_wsb_percentage
+                - voters_alliance_wiss_percentage
+                - voters_alliance_wsb_percentage
   - id: berlin-election-results-federal-election
     input_ports:
       - id: berlin-election-results-federal-election-2017
@@ -999,6 +1710,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_spd
                   - party_die_linke
@@ -1036,9 +1750,43 @@ input_port_groups:
                   - individual_applicant
                   - individual_applicant_parteifrei_für_die_menschen
                   - individual_applicant_parteifrei_und_bürgerbestimmt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_freie_wähler_percentage
+                  - party_ödp_percentage
+                  - party_büso_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_b_percentage
+                  - party_bge_percentage
+                  - party_dib_percentage
+                  - party_dkp_percentage
+                  - party_dm_percentage
+                  - party_die_grauen_percentage
+                  - party_du_percentage
+                  - party_menschliche_welt_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_v_partei3_percentage
+                  - party_die_frauen_percentage
+                  - individual_applicant_für_dich_im_bundestag_percentage
+                  - individual_applicant_grog_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_1_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_2_percentage
+                  - individual_applicant_ideengeber_mensch_natur_technik_percentage
+                  - individual_applicant_liberal_nachhaltig_sozial_weltoffen_percentage
+                  - individual_applicant_den_menschen_verpflichtet_keiner_partei_percentage
+                  - party_mieterpartei_percentage
+                  - party_npd_percentage
+                  - individual_applicant_percentage
+                  - individual_applicant_parteifrei_für_die_menschen_percentage
+                  - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
               - source_file_name: berlin-election-results-federal-election-2017-electoral-results-second-vote-city.csv
                 source_file_prefix: second_vote_
                 attributes:
@@ -1050,6 +1798,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_spd
                   - party_die_linke
@@ -1087,9 +1838,43 @@ input_port_groups:
                   - individual_applicant
                   - individual_applicant_parteifrei_für_die_menschen
                   - individual_applicant_parteifrei_und_bürgerbestimmt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_freie_wähler_percentage
+                  - party_ödp_percentage
+                  - party_büso_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_b_percentage
+                  - party_bge_percentage
+                  - party_dib_percentage
+                  - party_dkp_percentage
+                  - party_dm_percentage
+                  - party_die_grauen_percentage
+                  - party_du_percentage
+                  - party_menschliche_welt_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_v_partei3_percentage
+                  - party_die_frauen_percentage
+                  - individual_applicant_für_dich_im_bundestag_percentage
+                  - individual_applicant_grog_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_1_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_2_percentage
+                  - individual_applicant_ideengeber_mensch_natur_technik_percentage
+                  - individual_applicant_liberal_nachhaltig_sozial_weltoffen_percentage
+                  - individual_applicant_den_menschen_verpflichtet_keiner_partei_percentage
+                  - party_mieterpartei_percentage
+                  - party_npd_percentage
+                  - individual_applicant_percentage
+                  - individual_applicant_parteifrei_für_die_menschen_percentage
+                  - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
             target_file_name: berlin-election-results-federal-election-2017-00-districts.geojson
             source_files:
@@ -1104,6 +1889,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_spd
                   - party_die_linke
@@ -1141,9 +1929,43 @@ input_port_groups:
                   - individual_applicant
                   - individual_applicant_parteifrei_für_die_menschen
                   - individual_applicant_parteifrei_und_bürgerbestimmt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_freie_wähler_percentage
+                  - party_ödp_percentage
+                  - party_büso_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_b_percentage
+                  - party_bge_percentage
+                  - party_dib_percentage
+                  - party_dkp_percentage
+                  - party_dm_percentage
+                  - party_die_grauen_percentage
+                  - party_du_percentage
+                  - party_menschliche_welt_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_v_partei3_percentage
+                  - party_die_frauen_percentage
+                  - individual_applicant_für_dich_im_bundestag_percentage
+                  - individual_applicant_grog_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_1_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_2_percentage
+                  - individual_applicant_ideengeber_mensch_natur_technik_percentage
+                  - individual_applicant_liberal_nachhaltig_sozial_weltoffen_percentage
+                  - individual_applicant_den_menschen_verpflichtet_keiner_partei_percentage
+                  - party_mieterpartei_percentage
+                  - party_npd_percentage
+                  - individual_applicant_percentage
+                  - individual_applicant_parteifrei_für_die_menschen_percentage
+                  - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
               - source_file_name: berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.csv
                 source_file_prefix: second_vote_
                 attributes:
@@ -1155,6 +1977,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_spd
                   - party_die_linke
@@ -1192,9 +2017,43 @@ input_port_groups:
                   - individual_applicant
                   - individual_applicant_parteifrei_für_die_menschen
                   - individual_applicant_parteifrei_und_bürgerbestimmt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_freie_wähler_percentage
+                  - party_ödp_percentage
+                  - party_büso_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_b_percentage
+                  - party_bge_percentage
+                  - party_dib_percentage
+                  - party_dkp_percentage
+                  - party_dm_percentage
+                  - party_die_grauen_percentage
+                  - party_du_percentage
+                  - party_menschliche_welt_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_v_partei3_percentage
+                  - party_die_frauen_percentage
+                  - individual_applicant_für_dich_im_bundestag_percentage
+                  - individual_applicant_grog_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_1_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_2_percentage
+                  - individual_applicant_ideengeber_mensch_natur_technik_percentage
+                  - individual_applicant_liberal_nachhaltig_sozial_weltoffen_percentage
+                  - individual_applicant_den_menschen_verpflichtet_keiner_partei_percentage
+                  - party_mieterpartei_percentage
+                  - party_npd_percentage
+                  - individual_applicant_percentage
+                  - individual_applicant_parteifrei_für_die_menschen_percentage
+                  - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
           - geojson_template_file_name: berlin-electoral-districts-federal-election-2017/berlin-electoral-districts-federal-election-2017.geojson
             target_file_name: berlin-election-results-federal-election-2017-00-electoral-districts.geojson
             source_files:
@@ -1209,6 +2068,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_spd
                   - party_die_linke
@@ -1246,9 +2108,43 @@ input_port_groups:
                   - individual_applicant
                   - individual_applicant_parteifrei_für_die_menschen
                   - individual_applicant_parteifrei_und_bürgerbestimmt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_freie_wähler_percentage
+                  - party_ödp_percentage
+                  - party_büso_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_b_percentage
+                  - party_bge_percentage
+                  - party_dib_percentage
+                  - party_dkp_percentage
+                  - party_dm_percentage
+                  - party_die_grauen_percentage
+                  - party_du_percentage
+                  - party_menschliche_welt_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_v_partei3_percentage
+                  - party_die_frauen_percentage
+                  - individual_applicant_für_dich_im_bundestag_percentage
+                  - individual_applicant_grog_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_1_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_2_percentage
+                  - individual_applicant_ideengeber_mensch_natur_technik_percentage
+                  - individual_applicant_liberal_nachhaltig_sozial_weltoffen_percentage
+                  - individual_applicant_den_menschen_verpflichtet_keiner_partei_percentage
+                  - party_mieterpartei_percentage
+                  - party_npd_percentage
+                  - individual_applicant_percentage
+                  - individual_applicant_parteifrei_für_die_menschen_percentage
+                  - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
               - source_file_name: berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.csv
                 source_file_prefix: second_vote_
                 attributes:
@@ -1260,6 +2156,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_spd
                   - party_die_linke
@@ -1297,9 +2196,43 @@ input_port_groups:
                   - individual_applicant
                   - individual_applicant_parteifrei_für_die_menschen
                   - individual_applicant_parteifrei_und_bürgerbestimmt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_freie_wähler_percentage
+                  - party_ödp_percentage
+                  - party_büso_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_b_percentage
+                  - party_bge_percentage
+                  - party_dib_percentage
+                  - party_dkp_percentage
+                  - party_dm_percentage
+                  - party_die_grauen_percentage
+                  - party_du_percentage
+                  - party_menschliche_welt_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_v_partei3_percentage
+                  - party_die_frauen_percentage
+                  - individual_applicant_für_dich_im_bundestag_percentage
+                  - individual_applicant_grog_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_1_percentage
+                  - individual_applicant_grundeinkommen_für_alle.org_2_percentage
+                  - individual_applicant_ideengeber_mensch_natur_technik_percentage
+                  - individual_applicant_liberal_nachhaltig_sozial_weltoffen_percentage
+                  - individual_applicant_den_menschen_verpflichtet_keiner_partei_percentage
+                  - party_mieterpartei_percentage
+                  - party_npd_percentage
+                  - individual_applicant_percentage
+                  - individual_applicant_parteifrei_für_die_menschen_percentage
+                  - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
       - id: berlin-election-results-federal-election-2021
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
@@ -1316,6 +2249,9 @@ input_port_groups:
                   - voters_b1
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_die_linke
                   - party_spd
@@ -1354,9 +2290,44 @@ input_port_groups:
                   - other_applicant_7
                   - other_applicant_8
                   - other_applicant_9
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_die_linke_percentage
+                  - party_spd_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_piraten_percentage
+                  - party_die_grauen_percentage
+                  - party_freie_wähler_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_ödp_percentage
+                  - party_du_percentage
+                  - party_v_partei3_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_büso_percentage
+                  - party_sgp_percentage
+                  - party_wir_bürger_percentage
+                  - party_heimat_percentage
+                  - party_die_humanisten_percentage
+                  - party_team_todenhöfer_percentage
+                  - party_volt_percentage
+                  - party_die_basis_percentage
+                  - party_b_percentage
+                  - others_percentage
+                  - party_bündnis_21_percentage
+                  - other_applicant_1_percentage
+                  - other_applicant_2_percentage
+                  - other_applicant_3_percentage
+                  - other_applicant_menschliche_welt_percentage
+                  - other_applicant_4_percentage
+                  - other_applicant_5_percentage
+                  - other_applicant_6_percentage
+                  - other_applicant_7_percentage
+                  - other_applicant_8_percentage
+                  - other_applicant_9_percentage
               - source_file_name: berlin-election-results-federal-election-2021-electoral-results-second-vote-city.csv
                 source_file_prefix: second_vote_
                 attributes:
@@ -1409,6 +2380,9 @@ input_port_groups:
                   - voters_b1
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_die_linke
                   - party_spd
@@ -1447,9 +2421,44 @@ input_port_groups:
                   - other_applicant_7
                   - other_applicant_8
                   - other_applicant_9
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_die_linke_percentage
+                  - party_spd_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_piraten_percentage
+                  - party_die_grauen_percentage
+                  - party_freie_wähler_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_ödp_percentage
+                  - party_du_percentage
+                  - party_v_partei3_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_büso_percentage
+                  - party_sgp_percentage
+                  - party_wir_bürger_percentage
+                  - party_heimat_percentage
+                  - party_die_humanisten_percentage
+                  - party_team_todenhöfer_percentage
+                  - party_volt_percentage
+                  - party_die_basis_percentage
+                  - party_b_percentage
+                  - others_percentage
+                  - party_bündnis_21_percentage
+                  - other_applicant_1_percentage
+                  - other_applicant_2_percentage
+                  - other_applicant_3_percentage
+                  - other_applicant_menschliche_welt_percentage
+                  - other_applicant_4_percentage
+                  - other_applicant_5_percentage
+                  - other_applicant_6_percentage
+                  - other_applicant_7_percentage
+                  - other_applicant_8_percentage
+                  - other_applicant_9_percentage
               - source_file_name: berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.csv
                 source_file_prefix: second_vote_
                 attributes:
@@ -1502,6 +2511,9 @@ input_port_groups:
                   - voters_b1
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_die_linke
                   - party_spd
@@ -1540,9 +2552,44 @@ input_port_groups:
                   - other_applicant_7
                   - other_applicant_8
                   - other_applicant_9
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_die_linke_percentage
+                  - party_spd_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_piraten_percentage
+                  - party_die_grauen_percentage
+                  - party_freie_wähler_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_ödp_percentage
+                  - party_du_percentage
+                  - party_v_partei3_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_büso_percentage
+                  - party_sgp_percentage
+                  - party_wir_bürger_percentage
+                  - party_heimat_percentage
+                  - party_die_humanisten_percentage
+                  - party_team_todenhöfer_percentage
+                  - party_volt_percentage
+                  - party_die_basis_percentage
+                  - party_b_percentage
+                  - others_percentage
+                  - party_bündnis_21_percentage
+                  - other_applicant_1_percentage
+                  - other_applicant_2_percentage
+                  - other_applicant_3_percentage
+                  - other_applicant_menschliche_welt_percentage
+                  - other_applicant_4_percentage
+                  - other_applicant_5_percentage
+                  - other_applicant_6_percentage
+                  - other_applicant_7_percentage
+                  - other_applicant_8_percentage
+                  - other_applicant_9_percentage
               - source_file_name: berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.csv
                 source_file_prefix: second_vote_
                 attributes:
@@ -1554,6 +2601,9 @@ input_port_groups:
                   - voters_b1
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_cdu
                   - party_die_linke
                   - party_spd
@@ -1578,9 +2628,30 @@ input_port_groups:
                   - party_die_humanisten
                   - party_team_todenhöfer
                   - party_volt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_cdu_percentage
+                  - party_die_linke_percentage
+                  - party_spd_percentage
+                  - party_grüne_percentage
+                  - party_afd_percentage
+                  - party_fdp_percentage
+                  - party_die_partei_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_piraten_percentage
+                  - party_die_grauen_percentage
+                  - party_freie_wähler_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_ödp_percentage
+                  - party_du_percentage
+                  - party_v_partei3_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_büso_percentage
+                  - party_sgp_percentage
+                  - party_wir_bürger_percentage
+                  - party_heimat_percentage
+                  - party_die_humanisten_percentage
+                  - party_team_todenhöfer_percentage
+                  - party_volt_percentage
   - id: berlin-election-results-european-election
     input_ports:
       - id: berlin-election-results-european-election-2019
@@ -1598,6 +2669,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_spd
                   - party_cdu
                   - party_grüne
@@ -1636,9 +2710,44 @@ input_port_groups:
                   - party_partei_für_die_tiere
                   - party_gesundheitsforschung
                   - party_volt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_spd_percentage
+                  - party_cdu_percentage
+                  - party_grüne_percentage
+                  - party_die_linke_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_die_partei_percentage
+                  - party_npd_percentage
+                  - party_familie_percentage
+                  - party_volksabstimmung_percentage
+                  - party_ödp_percentage
+                  - party_freie_wähler_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_bp_percentage
+                  - party_tierschutz_hier_percentage
+                  - party_tierschutzallianz_percentage
+                  - party_bündnis_c_percentage
+                  - party_big_percentage
+                  - party_die_direkte_percentage
+                  - party_diem25_percentage
+                  - party_III_weg_percentage
+                  - party_die_grauen_percentage
+                  - party_die_rechte_percentage
+                  - party_die_violetten_percentage
+                  - party_liebe_percentage
+                  - party_die_frauen_percentage
+                  - party_graue_panther_percentage
+                  - party_lkr_percentage
+                  - party_menschliche_welt_percentage
+                  - party_nl_percentage
+                  - party_ökolinx_percentage
+                  - party_partei_für_die_tiere_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_volt_percentage
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
             target_file_name: berlin-election-results-european-election-2019-00-districts.geojson
             source_files:
@@ -1652,6 +2761,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_spd
                   - party_cdu
                   - party_grüne
@@ -1690,9 +2802,44 @@ input_port_groups:
                   - party_partei_für_die_tiere
                   - party_gesundheitsforschung
                   - party_volt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_spd_percentage
+                  - party_cdu_percentage
+                  - party_grüne_percentage
+                  - party_die_linke_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_die_partei_percentage
+                  - party_npd_percentage
+                  - party_familie_percentage
+                  - party_volksabstimmung_percentage
+                  - party_ödp_percentage
+                  - party_freie_wähler_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_bp_percentage
+                  - party_tierschutz_hier_percentage
+                  - party_tierschutzallianz_percentage
+                  - party_bündnis_c_percentage
+                  - party_big_percentage
+                  - party_die_direkte_percentage
+                  - party_diem25_percentage
+                  - party_III_weg_percentage
+                  - party_die_grauen_percentage
+                  - party_die_rechte_percentage
+                  - party_die_violetten_percentage
+                  - party_liebe_percentage
+                  - party_die_frauen_percentage
+                  - party_graue_panther_percentage
+                  - party_lkr_percentage
+                  - party_menschliche_welt_percentage
+                  - party_nl_percentage
+                  - party_ökolinx_percentage
+                  - party_partei_für_die_tiere_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_volt_percentage
           - geojson_template_file_name: berlin-electoral-districts-european-election-2019/berlin-electoral-districts-european-election-2019.geojson
             target_file_name: berlin-election-results-european-election-2019-00-electoral-districts.geojson
             source_files:
@@ -1706,6 +2853,9 @@ input_port_groups:
                   - voters_b1
                   - invalid_votes
                   - valid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_spd
                   - party_cdu
                   - party_grüne
@@ -1744,9 +2894,44 @@ input_port_groups:
                   - party_partei_für_die_tiere
                   - party_gesundheitsforschung
                   - party_volt
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_spd_percentage
+                  - party_cdu_percentage
+                  - party_grüne_percentage
+                  - party_die_linke_percentage
+                  - party_afd_percentage
+                  - party_piraten_percentage
+                  - party_fdp_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_die_partei_percentage
+                  - party_npd_percentage
+                  - party_familie_percentage
+                  - party_volksabstimmung_percentage
+                  - party_ödp_percentage
+                  - party_freie_wähler_percentage
+                  - party_dkp_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_bp_percentage
+                  - party_tierschutz_hier_percentage
+                  - party_tierschutzallianz_percentage
+                  - party_bündnis_c_percentage
+                  - party_big_percentage
+                  - party_die_direkte_percentage
+                  - party_diem25_percentage
+                  - party_III_weg_percentage
+                  - party_die_grauen_percentage
+                  - party_die_rechte_percentage
+                  - party_die_violetten_percentage
+                  - party_liebe_percentage
+                  - party_die_frauen_percentage
+                  - party_graue_panther_percentage
+                  - party_lkr_percentage
+                  - party_menschliche_welt_percentage
+                  - party_nl_percentage
+                  - party_ökolinx_percentage
+                  - party_partei_für_die_tiere_percentage
+                  - party_gesundheitsforschung_percentage
+                  - party_volt_percentage
       - id: berlin-election-results-european-election-2024
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
@@ -1762,6 +2947,9 @@ input_port_groups:
                   - voters_with_voting_license
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_grüne
                   - party_cdu
                   - party_spd
@@ -1796,9 +2984,40 @@ input_port_groups:
                   - party_pdv
                   - party_pdf
                   - party_v_partei3
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_grüne_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_afd_percentage
+                  - party_die_partei_percentage
+                  - party_fdp_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_mera25_percentage
+                  - party_volt_percentage
+                  - party_piraten_percentage
+                  - party_familie_percentage
+                  - party_ödp_percentage
+                  - party_freie_wähler_percentage
+                  - party_tierschutz_hier_percentage
+                  - party_big_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_pdh_percentage
+                  - party_heimat_percentage
+                  - party_dkp_percentage
+                  - party_menschliche_welt_percentage
+                  - party_bündnis_c_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_abg_percentage
+                  - party_die_basis_percentage
+                  - party_bündnis_deutschand_percentage
+                  - party_bsw_percentage
+                  - party_dawa_percentage
+                  - party_klimaliste_percentage
+                  - party_letzte_generation_percentage
+                  - party_pdv_percentage
+                  - party_pdf_percentage
+                  - party_v_partei3_percentage
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-districts.geojson
             target_file_name: berlin-election-results-european-election-2024-00-districts.geojson
             source_files:
@@ -1812,6 +3031,9 @@ input_port_groups:
                   - voters_with_voting_license
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_grüne
                   - party_cdu
                   - party_spd
@@ -1846,9 +3068,40 @@ input_port_groups:
                   - party_pdv
                   - party_pdf
                   - party_v_partei3
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_grüne_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_afd_percentage
+                  - party_die_partei_percentage
+                  - party_fdp_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_mera25_percentage
+                  - party_volt_percentage
+                  - party_piraten_percentage
+                  - party_familie_percentage
+                  - party_ödp_percentage
+                  - party_freie_wähler_percentage
+                  - party_tierschutz_hier_percentage
+                  - party_big_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_pdh_percentage
+                  - party_heimat_percentage
+                  - party_dkp_percentage
+                  - party_menschliche_welt_percentage
+                  - party_bündnis_c_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_abg_percentage
+                  - party_die_basis_percentage
+                  - party_bündnis_deutschand_percentage
+                  - party_bsw_percentage
+                  - party_dawa_percentage
+                  - party_klimaliste_percentage
+                  - party_letzte_generation_percentage
+                  - party_pdv_percentage
+                  - party_pdf_percentage
+                  - party_v_partei3_percentage
           - geojson_template_file_name: berlin-electoral-districts-european-election-2024/berlin-electoral-districts-european-election-2024.geojson
             target_file_name: berlin-election-results-european-election-2024-00-electoral-districts.geojson
             source_files:
@@ -1862,6 +3115,9 @@ input_port_groups:
                   - voters_with_voting_license
                   - valid_votes
                   - invalid_votes
+                  - voter_turnout
+                  - invalid_votes_percentage
+                  - valid_votes_percentage
                   - party_grüne
                   - party_cdu
                   - party_spd
@@ -1896,9 +3152,40 @@ input_port_groups:
                   - party_pdv
                   - party_pdf
                   - party_v_partei3
-                  - voter_turnout
-                  - invalid_votes_percentage
-                  - valid_votes_percentage
+                  - party_grüne_percentage
+                  - party_cdu_percentage
+                  - party_spd_percentage
+                  - party_die_linke_percentage
+                  - party_afd_percentage
+                  - party_die_partei_percentage
+                  - party_fdp_percentage
+                  - party_tierschutzpartei_percentage
+                  - party_mera25_percentage
+                  - party_volt_percentage
+                  - party_piraten_percentage
+                  - party_familie_percentage
+                  - party_ödp_percentage
+                  - party_freie_wähler_percentage
+                  - party_tierschutz_hier_percentage
+                  - party_big_percentage
+                  - party_verjüngungsforschung_percentage
+                  - party_pdh_percentage
+                  - party_heimat_percentage
+                  - party_dkp_percentage
+                  - party_menschliche_welt_percentage
+                  - party_bündnis_c_percentage
+                  - party_mlpd_percentage
+                  - party_sgp_percentage
+                  - party_abg_percentage
+                  - party_die_basis_percentage
+                  - party_bündnis_deutschand_percentage
+                  - party_bsw_percentage
+                  - party_dawa_percentage
+                  - party_klimaliste_percentage
+                  - party_letzte_generation_percentage
+                  - party_pdv_percentage
+                  - party_pdf_percentage
+                  - party_v_partei3_percentage
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     input_ports:
     - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
