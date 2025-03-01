@@ -3558,7 +3558,7 @@ input_port_groups:
                 - valid_votes_percentage
                 - vote_yes_percentage
                 - vote_no_percentage
-        - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
+        - geojson_template_file_name: berlin-electoral-districts-berlin-election-2021/berlin-electoral-districts-berlin-election-2021.geojson
           target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-electoral-districts.geojson
           source_files:
             - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv
@@ -3610,7 +3610,7 @@ input_port_groups:
                 - valid_votes_percentage
                 - vote_yes_percentage
                 - vote_no_percentage
-        - geojson_template_file_name: berlin-electoral-districts-berlin-election-2016/berlin-electoral-districts-berlin-election-2016.geojson
+        - geojson_template_file_name: berlin-electoral-districts-berlin-election-2021/berlin-electoral-districts-berlin-election-2021.geojson
           target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-electoral-districts.geojson
           source_files:
             - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv
