@@ -7,7 +7,7 @@
 * description: Data product combining Berlin election results and geodata
 * url: https://github.com/open-lifeworlds/-open-lifeworlds-data-product-berlin-election-results
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 ## Input Ports
 
@@ -69,6 +69,61 @@
 **Files**
 
 * [berlin-electoral-districts-berlin-election-2021.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-berlin-election-2021/berlin-electoral-districts-berlin-election-2021.geojson)
+
+### Berlin Electoral Districts Federal Election 2017
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/tree/main/data/02-silver/berlin-electoral-districts-federal-election-2017
+* license: CC-BY 4.0
+* updated: 2024-12-04
+
+**Schema**
+
+| Name | Description |
+| --- | --- |
+| electoral_district_id | ID of the electoral district (5 digits) |
+| electoral_district_id_3 | ID of the polling district (3 digits), unique for each district |
+| postal_voting_district_id | ID of the postal voting district (3 digits + 1 letter), first 2 digits represent the district |
+| postal_voting_district_id_2 | ID of the postal voting district (1 digit + 1 letter) |
+| electoral_district_berlin_election_id | ID of the electoral district for the election of House of Representatives (4 digits) |
+| electoral_district_federal_election_id | ID of the electoral district for the federal election (3 digits) |
+
+**Files**
+
+* [berlin-electoral-districts-federal-election-2017.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-federal-election-2017/berlin-electoral-districts-federal-election-2017.geojson)
+
+### Berlin Electoral Districts Federal Election 2021
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/tree/main/data/02-silver/berlin-electoral-districts-federal-election-2021
+* license: CC-BY 4.0
+* updated: 2024-12-04
+
+**Schema**
+
+| Name | Description |
+| --- | --- |
+| electoral_district_id | ID of the electoral district (5 digits) |
+| electoral_district_id_3 | ID of the polling district (3 digits), unique for each district |
+| postal_voting_district_id | ID of the postal voting district (3 digits + 1 letter), first 2 digits represent the district |
+| postal_voting_district_id_2 | ID of the postal voting district (1 digit + 1 letter) |
+| electoral_district_berlin_election_id | ID of the electoral district for the election of House of Representatives (4 digits) |
+| electoral_district_federal_election_id | ID of the electoral district for the federal election (3 digits) |
+
+**Files**
+
+* [berlin-electoral-districts-federal-election-2021.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-federal-election-2021/berlin-electoral-districts-federal-election-2021.geojson)
+
+### Berlin Electoral Districts Federal Election 2025
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/tree/main/data/02-silver/berlin-electoral-districts-federal-election-2025
+* license: CC-BY 4.0
+* updated: 2025-05-26
+
+**Files**
+
+* [berlin-electoral-districts-federal-election-2025.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-federal-election-2025/berlin-electoral-districts-federal-election-2025.geojson)
 
 ### Berlin Electoral Districts European Election 2014
 
@@ -132,50 +187,6 @@
 **Files**
 
 * [berlin-electoral-districts-european-election-2024.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-european-election-2024/berlin-electoral-districts-european-election-2024.geojson)
-
-### Berlin Electoral Districts Federal Election 2017
-
-* owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/tree/main/data/02-silver/berlin-electoral-districts-federal-election-2017
-* license: CC-BY 4.0
-* updated: 2024-12-04
-
-**Schema**
-
-| Name | Description |
-| --- | --- |
-| electoral_district_id | ID of the electoral district (5 digits) |
-| electoral_district_id_3 | ID of the polling district (3 digits), unique for each district |
-| postal_voting_district_id | ID of the postal voting district (3 digits + 1 letter), first 2 digits represent the district |
-| postal_voting_district_id_2 | ID of the postal voting district (1 digit + 1 letter) |
-| electoral_district_berlin_election_id | ID of the electoral district for the election of House of Representatives (4 digits) |
-| electoral_district_federal_election_id | ID of the electoral district for the federal election (3 digits) |
-
-**Files**
-
-* [berlin-electoral-districts-federal-election-2017.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-federal-election-2017/berlin-electoral-districts-federal-election-2017.geojson)
-
-### Berlin Electoral Districts Federal Election 2021
-
-* owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/tree/main/data/02-silver/berlin-electoral-districts-federal-election-2021
-* license: CC-BY 4.0
-* updated: 2024-12-04
-
-**Schema**
-
-| Name | Description |
-| --- | --- |
-| electoral_district_id | ID of the electoral district (5 digits) |
-| electoral_district_id_3 | ID of the polling district (3 digits), unique for each district |
-| postal_voting_district_id | ID of the postal voting district (3 digits + 1 letter), first 2 digits represent the district |
-| postal_voting_district_id_2 | ID of the postal voting district (1 digit + 1 letter) |
-| electoral_district_berlin_election_id | ID of the electoral district for the election of House of Representatives (4 digits) |
-| electoral_district_federal_election_id | ID of the electoral district for the federal election (3 digits) |
-
-**Files**
-
-* [berlin-electoral-districts-federal-election-2021.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-electoral-districts-geodata/main/data/02-silver/berlin-electoral-districts-federal-election-2021/berlin-electoral-districts-federal-election-2021.geojson)
 
 ### Berlin Election Results Berlin Election 2016
 
@@ -247,6 +258,22 @@
 * [berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.csv)
 * [berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.csv)
 
+### Berlin Election Results Federal Election 2025
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2025
+* license: GPLv3
+* updated: 2025-05-25
+
+**Files**
+
+* [berlin-election-results-federal-election-2025-electoral-results-first-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025/berlin-election-results-federal-election-2025-electoral-results-first-vote-city.csv)
+* [berlin-election-results-federal-election-2025-electoral-results-first-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025/berlin-election-results-federal-election-2025-electoral-results-first-vote-districts.csv)
+* [berlin-election-results-federal-election-2025-electoral-results-first-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025/berlin-election-results-federal-election-2025-electoral-results-first-vote-electoral-districts.csv)
+* [berlin-election-results-federal-election-2025-electoral-results-second-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025/berlin-election-results-federal-election-2025-electoral-results-second-vote-city.csv)
+* [berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025/berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.csv)
+* [berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025/berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.csv)
+
 ### Berlin Election Results European Election 2019
 
 * owner: Open Lifeworlds
@@ -285,44 +312,6 @@
 * [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.csv)
 * [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv)
 * [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv)
-
-### Berlin Election Results Berlin Election 2016
-
-* owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016
-* license: GPLv3
-* updated: 2025-05-13
-
-**Files**
-
-* [berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv)
-* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv)
-
-### Berlin Election Results Berlin Election 2023
-
-* owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2023
-* license: GPLv3
-* updated: 2025-05-13
-
-**Files**
-
-* [berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv)
-* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv)
 
 ### Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion
 
@@ -426,7 +415,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-berlin-election-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -442,7 +431,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-berlin-election-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -453,7 +442,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-european-election-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -469,7 +458,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-european-election-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -480,7 +469,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-federal-election-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -490,13 +479,16 @@
 * [berlin-election-results-federal-election-2021-00-city.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2021-00-city.geojson)
 * [berlin-election-results-federal-election-2021-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2021-00-districts.geojson)
 * [berlin-election-results-federal-election-2021-00-electoral-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2021-00-electoral-districts.geojson)
+* [berlin-election-results-federal-election-2025-00-city.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2025-00-city.geojson)
+* [berlin-election-results-federal-election-2025-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2025-00-districts.geojson)
+* [berlin-election-results-federal-election-2025-00-electoral-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/main/data/03-gold/berlin-election-results-federal-election-geojson/berlin-election-results-federal-election-2025-00-electoral-districts.geojson)
 
 ### Berlin Election Results Federal Election Statistics
 
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-federal-election-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -507,7 +499,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -520,7 +512,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -531,7 +523,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -544,7 +536,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -555,7 +547,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -568,7 +560,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -579,7 +571,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -592,7 +584,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -603,7 +595,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -616,7 +608,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -627,7 +619,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -640,7 +632,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -651,7 +643,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -664,7 +656,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -675,7 +667,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -688,7 +680,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics
 * license: CC-BY 4.0
-* updated: 2025-05-23
+* updated: 2025-05-26
 
 **Files**
 
@@ -714,6 +706,9 @@
 | berlin-election-results-federal-election-2021-00-city.geojson | 100 |
 | berlin-election-results-federal-election-2021-00-districts.geojson | 100 |
 | berlin-election-results-federal-election-2021-00-electoral-districts.geojson | 100 |
+| berlin-election-results-federal-election-2025-00-city.geojson | 100 |
+| berlin-election-results-federal-election-2025-00-districts.geojson | 100 |
+| berlin-election-results-federal-election-2025-00-electoral-districts.geojson | 100 |
 | berlin-election-results-european-election-2019-00-city.geojson | 100 |
 | berlin-election-results-european-election-2019-00-districts.geojson | 100 |
 | berlin-election-results-european-election-2019-00-electoral-districts.geojson | 100 |
