@@ -86,6 +86,18 @@ def blend_data(
                                 == str(feature["properties"]["id"])
                             ]
 
+                            # Add ID and name attribute
+                            json_statistics[year][half_year][
+                                feature["properties"]["id"]
+                            ]["id"] = feature["properties"]["id"]
+                            json_statistics[year][half_year][
+                                feature["properties"]["id"]
+                            ]["name"] = (
+                                feature["properties"]["name"]
+                                if "name" in feature["properties"]
+                                else feature["properties"]["id"]
+                            )
+
                             # Iterate over attributes
                             for attribute in input_port.attributes:
                                 if not statistic_filtered[attribute].empty:
