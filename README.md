@@ -1,12 +1,12 @@
-[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results/issues)
+[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-lifeworlds-berlin-election-results)](https://github.com/open-lifeworlds/open-lifeworlds-lifeworlds-berlin-election-results/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results">
+  <a href="https://github.com/open-lifeworlds/open-lifeworlds-lifeworlds-berlin-election-results">
     <img src="logo_with_text.png" alt="Logo" height="80">
   </a>
 
-  <h1 align="center">Open Lifeworlds Data Product - Berlin Election Results</h1>
+  <h1 align="center">Berlin Election Results</h1>
 
   <p align="center">
     Data product combining Berlin election results and geodata</a>
@@ -15,7 +15,7 @@
 
 ## About The Project
 
-See [data product canvas](docs/data-product-canvas.md).
+See [data product canvas](./docs/data-product-canvas.md) and [ODPS canvas](./docs/odps-canvas.md).
 
 ### Built With
 
@@ -38,6 +38,13 @@ Run this command to generate and activate a virtual environment.
 
 ```shell
 uv venv
+source .venv/bin/activate
+```
+
+Run this command to re-install the Open Data Product Python library.
+
+```shell
+uv pip install --no-cache-dir git+https://github.com/open-lifeworlds/open-lifeworlds-python-lib.git
 ```
 
 Run this command to start the main script.
