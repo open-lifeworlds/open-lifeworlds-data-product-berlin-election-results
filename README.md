@@ -3,13 +3,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/open-lifeworlds/open-lifeworlds-lifeworlds-berlin-election-results">
-    <img src="logo_with_text.png" alt="Logo" height="80">
+    <img src="logo-with-text.png" alt="Logo" height="80">
   </a>
 
   <h1 align="center">Berlin Election Results</h1>
 
   <p align="center">
-    Data product combining Berlin election results and geodata</a>
+    Data product combining Berlin election results and geodata
   </p>
 </p>
 

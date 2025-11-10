@@ -2,7 +2,7 @@
 input_port_groups:
   - id: berlin-election-results-berlin-election
     input_ports:
-      - id: berlin-election-results-berlin-election-2016
+      - id: berlin-election-results-berlin-election-2016-csv
         files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-berlin-election-2016-00-city.geojson
@@ -871,7 +871,7 @@ input_port_groups:
                 - party_ökolinx-arl_b_f-k_percentage
                 - party_pne_percentage
                 - party_banc_percentage
-      - id: berlin-election-results-berlin-election-2023
+      - id: berlin-election-results-berlin-election-2023-csv
         files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-berlin-election-2023-00-city.geojson
@@ -1694,7 +1694,7 @@ input_port_groups:
                 - voters_alliance_wsb_percentage
   - id: berlin-election-results-federal-election
     input_ports:
-      - id: berlin-election-results-federal-election-2017
+      - id: berlin-election-results-federal-election-2017-csv
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
             target_file_name: berlin-election-results-federal-election-2017-00-city.geojson
@@ -2233,7 +2233,7 @@ input_port_groups:
                   - individual_applicant_percentage
                   - individual_applicant_parteifrei_für_die_menschen_percentage
                   - individual_applicant_parteifrei_und_bürgerbestimmt_percentage
-      - id: berlin-election-results-federal-election-2021
+      - id: berlin-election-results-federal-election-2021-csv
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
             target_file_name: berlin-election-results-federal-election-2021-00-city.geojson
@@ -2652,7 +2652,7 @@ input_port_groups:
                   - party_die_humanisten_percentage
                   - party_team_todenhöfer_percentage
                   - party_volt_percentage
-      - id: berlin-election-results-federal-election-2025
+      - id: berlin-election-results-federal-election-2025-csv
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
             target_file_name: berlin-election-results-federal-election-2025-00-city.geojson
@@ -2989,7 +2989,7 @@ input_port_groups:
                   - party_pdf_percentage
   - id: berlin-election-results-european-election
     input_ports:
-      - id: berlin-election-results-european-election-2019
+      - id: berlin-election-results-european-election-2019-csv
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
             target_file_name: berlin-election-results-european-election-2019-00-city.geojson
@@ -3267,7 +3267,7 @@ input_port_groups:
                   - party_partei_für_die_tiere_percentage
                   - party_gesundheitsforschung_percentage
                   - party_volt_percentage
-      - id: berlin-election-results-european-election-2024
+      - id: berlin-election-results-european-election-2024-csv
         files:
           - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
             target_file_name: berlin-election-results-european-election-2024-00-city.geojson
@@ -3523,7 +3523,7 @@ input_port_groups:
                   - party_v_partei3_percentage
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     input_ports:
-    - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
+    - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-2008-00-city.geojson
@@ -3575,7 +3575,7 @@ input_port_groups:
                 - vote_no_percentage
   - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     input_ports:
-    - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+    - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-2009-00-city.geojson
@@ -3627,7 +3627,7 @@ input_port_groups:
                 - vote_no_percentage
   - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     input_ports:
-    - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
+    - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-2011-00-city.geojson
@@ -3679,7 +3679,7 @@ input_port_groups:
                 - vote_no_percentage
   - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
     input_ports:
-    - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
+    - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-2013-00-city.geojson
@@ -3731,7 +3731,7 @@ input_port_groups:
                 - vote_no_percentage
   - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
     input_ports:
-    - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+    - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-2014-00-city.geojson
@@ -3807,7 +3807,7 @@ input_port_groups:
                 - question_2_vote_no_percentage
   - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
     input_ports:
-    - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
+    - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-2017-00-city.geojson
@@ -3859,7 +3859,7 @@ input_port_groups:
                 - vote_no_percentage
   - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
     input_ports:
-    - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
+    - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-2021-00-city.geojson
@@ -3911,7 +3911,7 @@ input_port_groups:
                 - vote_no_percentage
   - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
     input_ports:
-    - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
+    - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv
       files:
         - geojson_template_file_name: berlin-lor-geodata-geojson/berlin-lor-city.geojson
           target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-2023-00-city.geojson
