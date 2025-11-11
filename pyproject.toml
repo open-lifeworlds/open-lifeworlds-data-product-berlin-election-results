@@ -5,13 +5,8 @@ description = "Data product combining Berlin election results and geodata"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dacite==1.9.2",
-    "pandas==2.2.3",
-    "pyyaml==6.0.2",
-    "requests==2.32.3",
-    "ruff>=0.8.0",
-    "open-lifeworlds-python-lib",
     "click>=8.2.1",
+    "open-lifeworlds-python-lib",
 ]
 
 [tool.uv.sources]
