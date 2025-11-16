@@ -9,12 +9,12 @@
 * output file formats: geojson
 * categories: timeseries
 * description: Data product combining Berlin election results and geodata
-* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-election-results/refs/heads/main/logo-with-text.png
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
 * product ID: berlin-election-results
 * product series: Berlin Timeseries Series
 * status: active
 * tags: Berlin, election
-* type: consumer-aligned
+* type: source-aligned
 * value proposition: Combining Berlin election results and geodata
 * version: 1.0
 * visibility: public
