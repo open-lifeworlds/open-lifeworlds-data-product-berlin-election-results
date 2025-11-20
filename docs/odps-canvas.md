@@ -13,7 +13,7 @@
 * product ID: berlin-election-results
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, election
+* tags: berlin, election
 * type: source-aligned
 * value proposition: Combining Berlin election results and geodata
 * version: 1.0

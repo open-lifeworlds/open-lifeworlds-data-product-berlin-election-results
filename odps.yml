@@ -18,7 +18,7 @@ product:
     productSeries: Berlin Timeseries Series
     standards: []
     tags:
-      - Berlin
+      - berlin
       - election
     useCases: []
     valueProposition: Combining Berlin election results and geodata
