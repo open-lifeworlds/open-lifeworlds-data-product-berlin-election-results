@@ -6,7 +6,7 @@
 
 ### Basic Information
 
-* output file formats: geojson
+* output file formats: geojson, .json
 * categories: timeseries
 * description: Data product combining Berlin election results and geodata
 * logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png

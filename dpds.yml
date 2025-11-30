@@ -31,8 +31,34 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: berlin-election-results-berlin-election-statistics
+      fullyQualifiedName: berlin-election-results-berlin-election-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: berlin-election-results-european-election-geojson
       fullyQualifiedName: berlin-election-results-european-election-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-statistics
+      fullyQualifiedName: berlin-election-results-european-election-statistics
       entityType:
       name: ''
       version:
@@ -57,8 +83,34 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: berlin-election-results-federal-election-statistics
+      fullyQualifiedName: berlin-election-results-federal-election-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
       fullyQualifiedName: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-statistics
       entityType:
       name: ''
       version:
@@ -83,8 +135,34 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
       fullyQualifiedName: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-statistics
       entityType:
       name: ''
       version:
@@ -109,8 +187,34 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
       fullyQualifiedName: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-statistics
       entityType:
       name: ''
       version:
@@ -135,6 +239,19 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
       fullyQualifiedName: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-geojson
       entityType:
@@ -148,8 +265,34 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson
       fullyQualifiedName: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics
+      fullyQualifiedName: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-statistics
       entityType:
       name: ''
       version:
