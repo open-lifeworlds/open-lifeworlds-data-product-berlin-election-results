@@ -871,12 +871,12 @@ input_port_groups:
                 - name: party_ökolinx-arl_b_f-k_percentage
                 - name: party_pne_percentage
                 - name: party_banc_percentage
-      - id: berlin-election-results-berlin-election-2023-csv
+      - id: berlin-election-results-berlin-election-2021-csv
         files:
         - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
-          target_file_name: berlin-election-results-berlin-election-2023-00-city.geojson
+          target_file_name: berlin-election-results-berlin-election-2021-00-city.geojson
           source_files:
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote-city.csv
               source_file_prefix: first_vote_
               attributes:
                 - name: eligible_voters
@@ -986,7 +986,7 @@ input_port_groups:
                 - name: individual_applicant_10_percentage
                 - name: individual_applicant_11_percentage
                 - name: individual_applicant_12_percentage
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote-city.csv
               source_file_prefix: second_vote_
               attributes:
                 - name: eligible_voters
@@ -1072,7 +1072,7 @@ input_port_groups:
                 - name: party_die_humanisten_percentage
                 - name: party_team_todenhöfer_percentage
                 - name: party_volt_percentage
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council-city.csv
               source_file_prefix: district_council_
               attributes:
                 - name: eligible_voters
@@ -1147,9 +1147,9 @@ input_port_groups:
                 - name: voters_alliance_wiss_percentage
                 - name: voters_alliance_wsb_percentage
         - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
-          target_file_name: berlin-election-results-berlin-election-2023-00-districts.geojson
+          target_file_name: berlin-election-results-berlin-election-2021-00-districts.geojson
           source_files:
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote-districts.csv
               source_file_prefix: first_vote_
               attributes:
                 - name: eligible_voters
@@ -1259,7 +1259,7 @@ input_port_groups:
                 - name: individual_applicant_10_percentage
                 - name: individual_applicant_11_percentage
                 - name: individual_applicant_12_percentage
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote-districts.csv
               source_file_prefix: second_vote_
               attributes:
                 - name: eligible_voters
@@ -1345,7 +1345,7 @@ input_port_groups:
                 - name: party_die_humanisten_percentage
                 - name: party_team_todenhöfer_percentage
                 - name: party_volt_percentage
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council-districts.csv
               source_file_prefix: district_council_
               attributes:
                 - name: eligible_voters
@@ -1420,9 +1420,9 @@ input_port_groups:
                 - name: voters_alliance_wiss_percentage
                 - name: voters_alliance_wsb_percentage
         - geojson_template_file_name: berlin-electoral-districts-berlin-election-2021/berlin-electoral-districts-berlin-election-2021.geojson
-          target_file_name: berlin-election-results-berlin-election-2023-00-electoral-districts.geojson
+          target_file_name: berlin-election-results-berlin-election-2021-00-electoral-districts.geojson
           source_files:
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote-electoral-districts.csv
               source_file_prefix: first_vote_
               attributes:
                 - name: eligible_voters
@@ -1532,7 +1532,7 @@ input_port_groups:
                 - name: individual_applicant_10_percentage
                 - name: individual_applicant_11_percentage
                 - name: individual_applicant_12_percentage
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote-electoral-districts.csv
               source_file_prefix: second_vote_
               attributes:
                 - name: eligible_voters
@@ -1618,7 +1618,7 @@ input_port_groups:
                 - name: party_die_humanisten_percentage
                 - name: party_team_todenhöfer_percentage
                 - name: party_volt_percentage
-            - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv
+            - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council-electoral-districts.csv
               source_file_prefix: district_council_
               attributes:
                 - name: eligible_voters
